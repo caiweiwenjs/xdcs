@@ -12,6 +12,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Common" Type="Folder">
 			<Item Name="Common-AddMsgToListBox.vi" Type="VI" URL="../Common-AddMsgToListBox.vi"/>
+			<Item Name="Common-AlertHandler.vi" Type="VI" URL="../Common-AlertHandler.vi"/>
 			<Item Name="Common-IsBetween.vi" Type="VI" URL="../Common-IsBetween.vi"/>
 			<Item Name="Core-CatchAndClearError.vi" Type="VI" URL="../Core-CatchAndClearError.vi"/>
 		</Item>
@@ -30,7 +31,6 @@
 			<Item Name="IPC-ModbusSerial-WriteRegister.vi" Type="VI" URL="../IPC-ModbusSerial-WriteRegister.vi"/>
 			<Item Name="IPC.vi" Type="VI" URL="../IPC.vi"/>
 			<Item Name="抽样2.vi" Type="VI" URL="../抽样2.vi"/>
-			<Item Name="抽样与分割 - 副本.vi" Type="VI" URL="../抽样与分割 - 副本.vi"/>
 			<Item Name="抽样与分割.vi" Type="VI" URL="../抽样与分割.vi"/>
 			<Item Name="最小公倍数.vi" Type="VI" URL="../最小公倍数.vi"/>
 		</Item>
@@ -102,7 +102,6 @@
 			<Item Name="Terminal_Loading_Unit_Display.vi" Type="VI" URL="../Terminal_Loading_Unit_Display.vi"/>
 			<Item Name="Terminal_Log_In_Judge.vi" Type="VI" URL="../Terminal_Log_In_Judge.vi"/>
 			<Item Name="Terminal_Lubricate_Unit_Display.vi" Type="VI" URL="../Terminal_Lubricate_Unit_Display.vi"/>
-			<Item Name="Terminal_PerssureSyetem_Work_Condition.vi" Type="VI" URL="../Terminal_PerssureSyetem_Work_Condition.vi"/>
 			<Item Name="Terminal_PressureSyetem_Work_Condition.vi" Type="VI" URL="../Terminal_PressureSyetem_Work_Condition.vi"/>
 			<Item Name="Terminal_Work_Condition.vi" Type="VI" URL="../Terminal_Work_Condition.vi"/>
 			<Item Name="Terminla_GearSystem_Work_Condition.vi" Type="VI" URL="../Terminla_GearSystem_Work_Condition.vi"/>
