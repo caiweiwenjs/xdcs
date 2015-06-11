@@ -1,5 +1,8 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="14008000">
+	<Property Name="varPersistentID:{56697613-18FC-4591-B677-5CD031600F24}" Type="Ref">/我的电脑/SV-Test.lvlib/AlertQueue</Property>
+	<Property Name="varPersistentID:{68858898-28B4-4DA7-B8FF-70CCAB336381}" Type="Ref">/我的电脑/SV-Test.lvlib/AlertData</Property>
+	<Property Name="varPersistentID:{ABA1C29B-1BA4-4912-B3B9-A24851AAF8D7}" Type="Ref">/我的电脑/SharedVariables.lvlib/报警队列</Property>
 	<Item Name="我的电脑" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -50,6 +53,7 @@
 			<Item Name="SQL_table_users_nonadmin_select_table.vi" Type="VI" URL="../SQL_table_users_nonadmin_select_table.vi"/>
 		</Item>
 		<Item Name="Terminal" Type="Folder">
+			<Item Name="Terminal-Alert-Init.vi" Type="VI" URL="../Terminal-Alert-Init.vi"/>
 			<Item Name="Terminal-Core-ErrorHandlingModule.vi" Type="VI" URL="../Terminal-Core-ErrorHandlingModule.vi"/>
 			<Item Name="Terminal-Core-InitializeNotifiers.vi" Type="VI" URL="../Terminal-Core-InitializeNotifiers.vi"/>
 			<Item Name="Terminal-Core-InitializeQueues.vi" Type="VI" URL="../Terminal-Core-InitializeQueues.vi"/>
@@ -114,6 +118,10 @@
 			<Item Name="TCP service test.vi" Type="VI" URL="../TCP service test.vi"/>
 			<Item Name="Test-Global.vi" Type="VI" URL="../Test-Global.vi"/>
 			<Item Name="Test-Global2.vi" Type="VI" URL="../Test-Global2.vi"/>
+			<Item Name="Test-SharedVariable-ReadQueue.vi" Type="VI" URL="../Test-SharedVariable-ReadQueue.vi"/>
+			<Item Name="Test-SharedVariable-WriteQueue.vi" Type="VI" URL="../Test-SharedVariable-WriteQueue.vi"/>
+			<Item Name="Test-SharedVariable1.vi" Type="VI" URL="../Test-SharedVariable1.vi"/>
+			<Item Name="Test-SharedVariable2.vi" Type="VI" URL="../Test-SharedVariable2.vi"/>
 			<Item Name="UDP receiver test.vi" Type="VI" URL="../UDP receiver test.vi"/>
 			<Item Name="UDP sender test.vi" Type="VI" URL="../UDP sender test.vi"/>
 		</Item>
@@ -201,6 +209,8 @@
 				<Property Name="ScaleType" Type="Str">Linear</Property>
 			</Item>
 		</Item>
+		<Item Name="SharedVariables.lvlib" Type="Library" URL="../SharedVariables.lvlib"/>
+		<Item Name="SV-Test.lvlib" Type="Library" URL="../SV-Test.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="ADO Connection Close.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/Connection/ADO Connection Close.vi"/>
