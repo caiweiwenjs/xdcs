@@ -38,6 +38,7 @@
 			<Item Name="最小公倍数.vi" Type="VI" URL="../最小公倍数.vi"/>
 		</Item>
 		<Item Name="Simulator" Type="Folder">
+			<Item Name="MB CRC-16.vi" Type="VI" URL="../MB CRC-16.vi"/>
 			<Item Name="Modbus RTU Serial Request Translator.vi" Type="VI" URL="../Modbus RTU Serial Request Translator.vi"/>
 			<Item Name="Modbus RTU Serial Simulator.vi" Type="VI" URL="../Modbus RTU Serial Simulator.vi"/>
 		</Item>
@@ -429,7 +430,6 @@
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="MB CRC-16.vi" Type="VI" URL="../../../测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB CRC-16.vi"/>
 			<Item Name="MB Decode Data.vi" Type="VI" URL="../../../测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Decode Data.vi"/>
 			<Item Name="MB Ethernet Master Query Read Holding Registers (poly).vi" Type="VI" URL="../../../测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Ethernet Master Query Read Holding Registers (poly).vi"/>
 			<Item Name="MB Ethernet Master Query Write Multiple Coils (poly).vi" Type="VI" URL="../../../测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Ethernet Master Query Write Multiple Coils (poly).vi"/>
