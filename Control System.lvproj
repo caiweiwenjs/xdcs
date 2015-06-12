@@ -53,7 +53,9 @@
 			<Item Name="SQL_table_users_nonadmin_select_table.vi" Type="VI" URL="../SQL_table_users_nonadmin_select_table.vi"/>
 		</Item>
 		<Item Name="Terminal" Type="Folder">
+			<Item Name="Terminal-Alert-Handler.vi" Type="VI" URL="../Terminal-Alert-Handler.vi"/>
 			<Item Name="Terminal-Alert-Init.vi" Type="VI" URL="../Terminal-Alert-Init.vi"/>
+			<Item Name="Terminal-Alert-Trigger.vi" Type="VI" URL="../Terminal-Alert-Trigger.vi"/>
 			<Item Name="Terminal-Core-ErrorHandlingModule.vi" Type="VI" URL="../Terminal-Core-ErrorHandlingModule.vi"/>
 			<Item Name="Terminal-Core-InitializeNotifiers.vi" Type="VI" URL="../Terminal-Core-InitializeNotifiers.vi"/>
 			<Item Name="Terminal-Core-InitializeQueues.vi" Type="VI" URL="../Terminal-Core-InitializeQueues.vi"/>
@@ -116,6 +118,8 @@
 			<Item Name="my UDP Sender.vi" Type="VI" URL="../my UDP Sender.vi"/>
 			<Item Name="TCP client test.vi" Type="VI" URL="../TCP client test.vi"/>
 			<Item Name="TCP service test.vi" Type="VI" URL="../TCP service test.vi"/>
+			<Item Name="Test-Alert-Handler.vi" Type="VI" URL="../Test-Alert-Handler.vi"/>
+			<Item Name="Test-Alert-Triggler.vi" Type="VI" URL="../Test-Alert-Triggler.vi"/>
 			<Item Name="Test-Global.vi" Type="VI" URL="../Test-Global.vi"/>
 			<Item Name="Test-Global2.vi" Type="VI" URL="../Test-Global2.vi"/>
 			<Item Name="Test-SharedVariable-ReadQueue.vi" Type="VI" URL="../Test-SharedVariable-ReadQueue.vi"/>
