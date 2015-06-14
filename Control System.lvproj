@@ -50,8 +50,6 @@
 			<Item Name="SQL_configuration_update.vi" Type="VI" URL="../SQL_configuration_update.vi"/>
 			<Item Name="SQL_monitor_data_settinngs_select.vi" Type="VI" URL="../SQL_monitor_data_settinngs_select.vi"/>
 			<Item Name="SQL_monitor_data_settinngs_update.vi" Type="VI" URL="../SQL_monitor_data_settinngs_update.vi"/>
-			<Item Name="SQL_param_alarm_select_table.vi" Type="VI" URL="../SQL_param_alarm_select_table.vi"/>
-			<Item Name="SQL_param_alarm_update.vi" Type="VI" URL="../SQL_param_alarm_update.vi"/>
 			<Item Name="SQL_table_users_admin_select_table.vi" Type="VI" URL="../SQL_table_users_admin_select_table.vi"/>
 			<Item Name="SQL_table_users_nonadmin_select_table.vi" Type="VI" URL="../SQL_table_users_nonadmin_select_table.vi"/>
 			<Item Name="SQL_test_data_insert.vi" Type="VI" URL="../SQL_test_data_insert.vi"/>
@@ -148,7 +146,6 @@
 		</Item>
 		<Item Name="UI" Type="Folder">
 			<Item Name="Export_Excel.vi" Type="VI" URL="../Export_Excel.vi"/>
-			<Item Name="UI_Alarm_Settings_Sensor.vi" Type="VI" URL="../UI_Alarm_Settings_Sensor.vi"/>
 			<Item Name="UI_Chose_Function.vi" Type="VI" URL="../UI_Chose_Function.vi"/>
 			<Item Name="UI_Control_System.rtm" Type="Document" URL="../UI_Control_System.rtm"/>
 			<Item Name="UI_Control_System.vi" Type="VI" URL="../UI_Control_System.vi"/>
