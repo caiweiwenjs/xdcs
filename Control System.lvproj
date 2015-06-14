@@ -64,6 +64,8 @@
 			<Item Name="SQL_users_select.vi" Type="VI" URL="../SQL_users_select.vi"/>
 		</Item>
 		<Item Name="Terminal" Type="Folder">
+			<Item Name="Terminal-Alert-6133.vi" Type="VI" URL="../Terminal-Alert-6133.vi"/>
+			<Item Name="Terminal-Alert-6220.vi" Type="VI" URL="../Terminal-Alert-6220.vi"/>
 			<Item Name="Terminal-Alert-DriverSystem.vi" Type="VI" URL="../Terminal-Alert-DriverSystem.vi"/>
 			<Item Name="Terminal-Alert-GearSystem.vi" Type="VI" URL="../Terminal-Alert-GearSystem.vi"/>
 			<Item Name="Terminal-Alert-Handler.vi" Type="VI" URL="../Terminal-Alert-Handler.vi"/>
@@ -155,7 +157,7 @@
 			<Item Name="UI_Frequency_Settings.vi" Type="VI" URL="../UI_Frequency_Settings.vi"/>
 			<Item Name="UI_Gear_Unit_Test.vi" Type="VI" URL="../UI_Gear_Unit_Test.vi"/>
 			<Item Name="UI_GUI.vi" Type="VI" URL="../UI_GUI.vi"/>
-			<Item Name="UI_History1.vi" Type="VI" URL="../UI_History1.vi"/>
+			<Item Name="UI_History.vi" Type="VI" URL="../UI_History.vi"/>
 			<Item Name="UI_Load_Spectrum_Modify.vi" Type="VI" URL="../UI_Load_Spectrum_Modify.vi"/>
 			<Item Name="UI_Loading_Unit.vi" Type="VI" URL="../UI_Loading_Unit.vi"/>
 			<Item Name="UI_Loading_Unit_Test.vi" Type="VI" URL="../UI_Loading_Unit_Test.vi"/>
@@ -231,6 +233,16 @@
 				<Property Name="ScaledUnits" Type="Str">deg C</Property>
 				<Property Name="ScaleType" Type="Str">Linear</Property>
 			</Item>
+		</Item>
+		<Item Name="自定义控件" Type="Folder">
+			<Item Name="齿轮箱独立测试.ctl" Type="VI" URL="../齿轮箱独立测试.ctl"/>
+			<Item Name="加载单元独立调试.ctl" Type="VI" URL="../加载单元独立调试.ctl"/>
+			<Item Name="开始试验.ctl" Type="VI" URL="../开始试验.ctl"/>
+			<Item Name="历史信息.ctl" Type="VI" URL="../历史信息.ctl"/>
+			<Item Name="陪试单元独立调试.ctl" Type="VI" URL="../陪试单元独立调试.ctl"/>
+			<Item Name="试验单元独立调试.ctl" Type="VI" URL="../试验单元独立调试.ctl"/>
+			<Item Name="退出登录1.ctl" Type="VI" URL="../退出登录1.ctl"/>
+			<Item Name="用户管理.ctl" Type="VI" URL="../用户管理.ctl"/>
 		</Item>
 		<Item Name="SharedVariables.lvlib" Type="Library" URL="../SharedVariables.lvlib"/>
 		<Item Name="SV-Test.lvlib" Type="Library" URL="../SV-Test.lvlib"/>
@@ -471,6 +483,7 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Terminal_PressureSystem_Display.vi" Type="VI" URL="../Terminal_PressureSystem_Display.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build"/>
 	</Item>
