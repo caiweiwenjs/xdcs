@@ -54,8 +54,11 @@
 			<Item Name="SQL_table_users_nonadmin_select_table.vi" Type="VI" URL="../SQL_table_users_nonadmin_select_table.vi"/>
 		</Item>
 		<Item Name="Terminal" Type="Folder">
+			<Item Name="Terminal-Alert-DriverSystem.vi" Type="VI" URL="../Terminal-Alert-DriverSystem.vi"/>
+			<Item Name="Terminal-Alert-GearSystem.vi" Type="VI" URL="../Terminal-Alert-GearSystem.vi"/>
 			<Item Name="Terminal-Alert-Handler.vi" Type="VI" URL="../Terminal-Alert-Handler.vi"/>
 			<Item Name="Terminal-Alert-Init.vi" Type="VI" URL="../Terminal-Alert-Init.vi"/>
+			<Item Name="Terminal-Alert-PressureSystem.vi" Type="VI" URL="../Terminal-Alert-PressureSystem.vi"/>
 			<Item Name="Terminal-Alert-Trigger.vi" Type="VI" URL="../Terminal-Alert-Trigger.vi"/>
 			<Item Name="Terminal-Core-ErrorHandlingModule.vi" Type="VI" URL="../Terminal-Core-ErrorHandlingModule.vi"/>
 			<Item Name="Terminal-Core-InitializeNotifiers.vi" Type="VI" URL="../Terminal-Core-InitializeNotifiers.vi"/>
