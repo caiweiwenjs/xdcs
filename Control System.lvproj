@@ -44,6 +44,8 @@
 		</Item>
 		<Item Name="SQL" Type="Folder">
 			<Item Name="executesql.vi" Type="VI" URL="../executesql.vi"/>
+			<Item Name="SQL_6133_data_insert.vi" Type="VI" URL="../SQL_6133_data_insert.vi"/>
+			<Item Name="SQL_6220_data_insert.vi" Type="VI" URL="../SQL_6220_data_insert.vi"/>
 			<Item Name="SQL_configuration_select_table.vi" Type="VI" URL="../SQL_configuration_select_table.vi"/>
 			<Item Name="SQL_configuration_update.vi" Type="VI" URL="../SQL_configuration_update.vi"/>
 			<Item Name="SQL_monitor_data_settinngs_select.vi" Type="VI" URL="../SQL_monitor_data_settinngs_select.vi"/>
@@ -52,6 +54,16 @@
 			<Item Name="SQL_param_alarm_update.vi" Type="VI" URL="../SQL_param_alarm_update.vi"/>
 			<Item Name="SQL_table_users_admin_select_table.vi" Type="VI" URL="../SQL_table_users_admin_select_table.vi"/>
 			<Item Name="SQL_table_users_nonadmin_select_table.vi" Type="VI" URL="../SQL_table_users_nonadmin_select_table.vi"/>
+			<Item Name="SQL_test_data_insert.vi" Type="VI" URL="../SQL_test_data_insert.vi"/>
+			<Item Name="SQL_test_data_select.vi" Type="VI" URL="../SQL_test_data_select.vi"/>
+			<Item Name="SQL_Test_Data_SelectByTime.vi" Type="VI" URL="../SQL_Test_Data_SelectByTime.vi"/>
+			<Item Name="SQL_test_template_selete.vi" Type="VI" URL="../SQL_test_template_selete.vi"/>
+			<Item Name="SQL_test_template_update.vi" Type="VI" URL="../SQL_test_template_update.vi"/>
+			<Item Name="SQL_User_Display.vi" Type="VI" URL="../SQL_User_Display.vi"/>
+			<Item Name="SQL_users_delete.vi" Type="VI" URL="../SQL_users_delete.vi"/>
+			<Item Name="SQL_users_find.vi" Type="VI" URL="../SQL_users_find.vi"/>
+			<Item Name="SQL_users_insert.vi" Type="VI" URL="../SQL_users_insert.vi"/>
+			<Item Name="SQL_users_select.vi" Type="VI" URL="../SQL_users_select.vi"/>
 		</Item>
 		<Item Name="Terminal" Type="Folder">
 			<Item Name="Terminal-Alert-DriverSystem.vi" Type="VI" URL="../Terminal-Alert-DriverSystem.vi"/>
@@ -113,6 +125,7 @@
 			<Item Name="Terminal_Log_In_Judge.vi" Type="VI" URL="../Terminal_Log_In_Judge.vi"/>
 			<Item Name="Terminal_Lubricate_Unit_Display.vi" Type="VI" URL="../Terminal_Lubricate_Unit_Display.vi"/>
 			<Item Name="Terminal_PressureSyetem_Work_Condition.vi" Type="VI" URL="../Terminal_PressureSyetem_Work_Condition.vi"/>
+			<Item Name="Terminal_Random_Select.vi" Type="VI" URL="../Terminal_Random_Select.vi"/>
 			<Item Name="Terminal_Work_Condition.vi" Type="VI" URL="../Terminal_Work_Condition.vi"/>
 			<Item Name="Terminla_GearSystem_Work_Condition.vi" Type="VI" URL="../Terminla_GearSystem_Work_Condition.vi"/>
 			<Item Name="Work_Condition.vi" Type="VI" URL="../Work_Condition.vi"/>
@@ -134,6 +147,7 @@
 			<Item Name="UDP sender test.vi" Type="VI" URL="../UDP sender test.vi"/>
 		</Item>
 		<Item Name="UI" Type="Folder">
+			<Item Name="Export_Excel.vi" Type="VI" URL="../Export_Excel.vi"/>
 			<Item Name="UI_Alarm_Settings_Sensor.vi" Type="VI" URL="../UI_Alarm_Settings_Sensor.vi"/>
 			<Item Name="UI_Chose_Function.vi" Type="VI" URL="../UI_Chose_Function.vi"/>
 			<Item Name="UI_Control_System.rtm" Type="Document" URL="../UI_Control_System.rtm"/>
@@ -144,12 +158,15 @@
 			<Item Name="UI_Frequency_Settings.vi" Type="VI" URL="../UI_Frequency_Settings.vi"/>
 			<Item Name="UI_Gear_Unit_Test.vi" Type="VI" URL="../UI_Gear_Unit_Test.vi"/>
 			<Item Name="UI_GUI.vi" Type="VI" URL="../UI_GUI.vi"/>
+			<Item Name="UI_History1.vi" Type="VI" URL="../UI_History1.vi"/>
 			<Item Name="UI_Loading_Unit.vi" Type="VI" URL="../UI_Loading_Unit.vi"/>
 			<Item Name="UI_Loading_Unit_Test.vi" Type="VI" URL="../UI_Loading_Unit_Test.vi"/>
 			<Item Name="UI_Log_In.vi" Type="VI" URL="../UI_Log_In.vi"/>
 			<Item Name="UI_Lubricate_Unit.vi" Type="VI" URL="../UI_Lubricate_Unit.vi"/>
 			<Item Name="UI_Lubricate_Unit_Test.vi" Type="VI" URL="../UI_Lubricate_Unit_Test.vi"/>
 			<Item Name="UI_Monitor_Data_Setting.vi" Type="VI" URL="../UI_Monitor_Data_Setting.vi"/>
+			<Item Name="UI_Test_Template_Modify.vi" Type="VI" URL="../UI_Test_Template_Modify.vi"/>
+			<Item Name="UI_Users_Manage.vi" Type="VI" URL="../UI_Users_Manage.vi"/>
 		</Item>
 		<Item Name="换算公式" Type="Folder">
 			<Item Name="电涡流换算" Type="NI-DAQmx Scale">
@@ -393,6 +410,7 @@
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
+				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
@@ -423,6 +441,7 @@
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="SubVIs.lvlib" Type="Library" URL="/&lt;vilib&gt;/Modbus/subvis/SubVIs.lvlib"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
@@ -432,6 +451,11 @@
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
+				<Item Name="Write To Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (DBL).vi"/>
+				<Item Name="Write To Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (I64).vi"/>
+				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
+				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
 			<Item Name="MB Decode Data.vi" Type="VI" URL="../../../测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Decode Data.vi"/>
 			<Item Name="MB Ethernet Master Query Read Holding Registers (poly).vi" Type="VI" URL="../../../测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Ethernet Master Query Read Holding Registers (poly).vi"/>
