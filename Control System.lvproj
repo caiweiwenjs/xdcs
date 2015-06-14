@@ -120,6 +120,7 @@
 			<Item Name="Terminal_Gear_System_Dispaly.vi" Type="VI" URL="../Terminal_Gear_System_Dispaly.vi"/>
 			<Item Name="Terminal_Log_In_Judge.vi" Type="VI" URL="../Terminal_Log_In_Judge.vi"/>
 			<Item Name="Terminal_PressureSyetem_Work_Condition.vi" Type="VI" URL="../Terminal_PressureSyetem_Work_Condition.vi"/>
+			<Item Name="Terminal_PressureSystem_Display.vi" Type="VI" URL="../Terminal_PressureSystem_Display.vi"/>
 			<Item Name="Terminal_Random_Select.vi" Type="VI" URL="../Terminal_Random_Select.vi"/>
 			<Item Name="Terminal_Work_Condition.vi" Type="VI" URL="../Terminal_Work_Condition.vi"/>
 			<Item Name="Terminla_GearSystem_Work_Condition.vi" Type="VI" URL="../Terminla_GearSystem_Work_Condition.vi"/>
@@ -231,12 +232,6 @@
 		</Item>
 		<Item Name="SharedVariables.lvlib" Type="Library" URL="../SharedVariables.lvlib"/>
 		<Item Name="SV-Test.lvlib" Type="Library" URL="../SV-Test.lvlib"/>
-		<Item Name="Terminal_PressureSystem_Display.vi" Type="VI" URL="../Terminal_PressureSystem_Display.vi"/>
-		<Item Name="齿轮箱独立测试.ctl" Type="VI" URL="/C/Users/WRR/Desktop/图标/齿轮箱独立测试.ctl"/>
-		<Item Name="控件 18.ctl" Type="VI" URL="/C/Users/WRR/Desktop/图标/控件 18.ctl"/>
-		<Item Name="控件 19.ctl" Type="VI" URL="/C/Users/WRR/Desktop/图标/控件 19.ctl"/>
-		<Item Name="陪试单元独立调试.ctl" Type="VI" URL="/C/Users/WRR/Desktop/图标/陪试单元独立调试.ctl"/>
-		<Item Name="退出登录1.ctl" Type="VI" URL="/C/Users/WRR/Desktop/图标/退出登录1.ctl"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="ADO Connection Close.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/Connection/ADO Connection Close.vi"/>
@@ -466,10 +461,13 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="齿轮箱独立测试.ctl" Type="VI" URL="/C/Users/WRR/Desktop/图标/齿轮箱独立测试.ctl"/>
 			<Item Name="加载单元独立调试.ctl" Type="VI" URL="/C/Users/WRR/Desktop/图标/加载单元独立调试.ctl"/>
 			<Item Name="开始试验.ctl" Type="VI" URL="/C/Users/WRR/Desktop/图标/开始试验.ctl"/>
 			<Item Name="历史信息.ctl" Type="VI" URL="/C/Users/WRR/Desktop/图标/历史信息.ctl"/>
+			<Item Name="陪试单元独立调试.ctl" Type="VI" URL="/C/Users/WRR/Desktop/图标/陪试单元独立调试.ctl"/>
 			<Item Name="试验单元独立调试.ctl" Type="VI" URL="/C/Users/WRR/Desktop/图标/试验单元独立调试.ctl"/>
+			<Item Name="退出登录1.ctl" Type="VI" URL="/C/Users/WRR/Desktop/图标/退出登录1.ctl"/>
 			<Item Name="用户管理.ctl" Type="VI" URL="/C/Users/WRR/Desktop/图标/用户管理.ctl"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build"/>
