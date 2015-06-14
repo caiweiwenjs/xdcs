@@ -115,13 +115,10 @@
 			<Item Name="Terminal-Test-CheckAll.vi" Type="VI" URL="../Terminal-Test-CheckAll.vi"/>
 			<Item Name="Terminal-Test-Halt.vi" Type="VI" URL="../Terminal-Test-Halt.vi"/>
 			<Item Name="Terminal.vi" Type="VI" URL="../Terminal.vi"/>
-			<Item Name="Terminal_Device_Lubricate_Unit_Display.vi" Type="VI" URL="../Terminal_Device_Lubricate_Unit_Display.vi"/>
 			<Item Name="Terminal_Drive_Syetem_Display.vi" Type="VI" URL="../Terminal_Drive_Syetem_Display.vi"/>
 			<Item Name="Terminal_Friction_Torque.vi" Type="VI" URL="../Terminal_Friction_Torque.vi"/>
 			<Item Name="Terminal_Gear_System_Dispaly.vi" Type="VI" URL="../Terminal_Gear_System_Dispaly.vi"/>
-			<Item Name="Terminal_Loading_Unit_Display.vi" Type="VI" URL="../Terminal_Loading_Unit_Display.vi"/>
 			<Item Name="Terminal_Log_In_Judge.vi" Type="VI" URL="../Terminal_Log_In_Judge.vi"/>
-			<Item Name="Terminal_Lubricate_Unit_Display.vi" Type="VI" URL="../Terminal_Lubricate_Unit_Display.vi"/>
 			<Item Name="Terminal_PressureSyetem_Work_Condition.vi" Type="VI" URL="../Terminal_PressureSyetem_Work_Condition.vi"/>
 			<Item Name="Terminal_Random_Select.vi" Type="VI" URL="../Terminal_Random_Select.vi"/>
 			<Item Name="Terminal_Work_Condition.vi" Type="VI" URL="../Terminal_Work_Condition.vi"/>
@@ -155,7 +152,7 @@
 			<Item Name="UI_Frequency_Settings.vi" Type="VI" URL="../UI_Frequency_Settings.vi"/>
 			<Item Name="UI_Gear_Unit_Test.vi" Type="VI" URL="../UI_Gear_Unit_Test.vi"/>
 			<Item Name="UI_GUI.vi" Type="VI" URL="../UI_GUI.vi"/>
-			<Item Name="UI_History1.vi" Type="VI" URL="../UI_History1.vi"/>
+			<Item Name="UI_History.vi" Type="VI" URL="../UI_History.vi"/>
 			<Item Name="UI_Load_Spectrum_Modify.vi" Type="VI" URL="../UI_Load_Spectrum_Modify.vi"/>
 			<Item Name="UI_Loading_Unit.vi" Type="VI" URL="../UI_Loading_Unit.vi"/>
 			<Item Name="UI_Loading_Unit_Test.vi" Type="VI" URL="../UI_Loading_Unit_Test.vi"/>
@@ -234,6 +231,12 @@
 		</Item>
 		<Item Name="SharedVariables.lvlib" Type="Library" URL="../SharedVariables.lvlib"/>
 		<Item Name="SV-Test.lvlib" Type="Library" URL="../SV-Test.lvlib"/>
+		<Item Name="Terminal_PressureSystem_Display.vi" Type="VI" URL="../Terminal_PressureSystem_Display.vi"/>
+		<Item Name="齿轮箱独立测试.ctl" Type="VI" URL="/C/Users/WRR/Desktop/图标/齿轮箱独立测试.ctl"/>
+		<Item Name="控件 18.ctl" Type="VI" URL="/C/Users/WRR/Desktop/图标/控件 18.ctl"/>
+		<Item Name="控件 19.ctl" Type="VI" URL="/C/Users/WRR/Desktop/图标/控件 19.ctl"/>
+		<Item Name="陪试单元独立调试.ctl" Type="VI" URL="/C/Users/WRR/Desktop/图标/陪试单元独立调试.ctl"/>
+		<Item Name="退出登录1.ctl" Type="VI" URL="/C/Users/WRR/Desktop/图标/退出登录1.ctl"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="ADO Connection Close.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/Connection/ADO Connection Close.vi"/>
@@ -455,22 +458,19 @@
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
-			<Item Name="MB Decode Data.vi" Type="VI" URL="../../../../Desktop/测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Decode Data.vi"/>
 			<Item Name="MB Ethernet Master Query Read Holding Registers (poly).vi" Type="VI" URL="../../../../Desktop/测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Ethernet Master Query Read Holding Registers (poly).vi"/>
 			<Item Name="MB Ethernet Master Query Write Multiple Coils (poly).vi" Type="VI" URL="../../../../Desktop/测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Ethernet Master Query Write Multiple Coils (poly).vi"/>
 			<Item Name="MB Ethernet Master Query Write Multiple Registers (poly).vi" Type="VI" URL="../../../../Desktop/测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Ethernet Master Query Write Multiple Registers (poly).vi"/>
 			<Item Name="MB Ethernet Master Query Write Single Register (poly).vi" Type="VI" URL="../../../../Desktop/测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Ethernet Master Query Write Single Register (poly).vi"/>
-			<Item Name="MB Ethernet Master Query.vi" Type="VI" URL="../../../../Desktop/测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Ethernet Master Query.vi"/>
-			<Item Name="MB Ethernet Receive.vi" Type="VI" URL="../../../../Desktop/测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Ethernet Receive.vi"/>
-			<Item Name="MB Ethernet String to Modbus Data Unit.vi" Type="VI" URL="../../../../Desktop/测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Ethernet String to Modbus Data Unit.vi"/>
-			<Item Name="MB Ethernet Transmit.vi" Type="VI" URL="../../../../Desktop/测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Ethernet Transmit.vi"/>
-			<Item Name="MB Modbus Command to Data Unit.vi" Type="VI" URL="../../../../Desktop/测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Modbus Command to Data Unit.vi"/>
-			<Item Name="MB Modbus Command.ctl" Type="VI" URL="../../../../Desktop/测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Modbus Command.ctl"/>
-			<Item Name="MB Modbus Data Unit.ctl" Type="VI" URL="../../../../Desktop/测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Modbus Data Unit.ctl"/>
 			<Item Name="mydaq.vi" Type="VI" URL="../../../mydaq.vi"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="加载单元独立调试.ctl" Type="VI" URL="/C/Users/WRR/Desktop/图标/加载单元独立调试.ctl"/>
+			<Item Name="开始试验.ctl" Type="VI" URL="/C/Users/WRR/Desktop/图标/开始试验.ctl"/>
+			<Item Name="历史信息.ctl" Type="VI" URL="/C/Users/WRR/Desktop/图标/历史信息.ctl"/>
+			<Item Name="试验单元独立调试.ctl" Type="VI" URL="/C/Users/WRR/Desktop/图标/试验单元独立调试.ctl"/>
+			<Item Name="用户管理.ctl" Type="VI" URL="/C/Users/WRR/Desktop/图标/用户管理.ctl"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build"/>
 	</Item>
