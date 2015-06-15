@@ -44,7 +44,6 @@
 		</Item>
 		<Item Name="SQL" Type="Folder">
 			<Item Name="executesql.vi" Type="VI" URL="../executesql.vi"/>
-			<Item Name="SQL_6133_data_insert.vi" Type="VI" URL="../SQL_6133_data_insert.vi"/>
 			<Item Name="SQL_6220_data_insert.vi" Type="VI" URL="../SQL_6220_data_insert.vi"/>
 			<Item Name="SQL_configuration_select_table.vi" Type="VI" URL="../SQL_configuration_select_table.vi"/>
 			<Item Name="SQL_configuration_update.vi" Type="VI" URL="../SQL_configuration_update.vi"/>
