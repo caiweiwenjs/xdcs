@@ -14,8 +14,10 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Common" Type="Folder">
+			<Item Name="Common-AbsLessThan.vi" Type="VI" URL="../Common-AbsLessThan.vi"/>
 			<Item Name="Common-AddMsgToListBox.vi" Type="VI" URL="../Common-AddMsgToListBox.vi"/>
 			<Item Name="Common-AlertHandler.vi" Type="VI" URL="../Common-AlertHandler.vi"/>
+			<Item Name="Common-ArrayRandomPick.vi" Type="VI" URL="../Common-ArrayRandomPick.vi"/>
 			<Item Name="Common-IsBetween.vi" Type="VI" URL="../Common-IsBetween.vi"/>
 			<Item Name="Core-CatchAndClearError.vi" Type="VI" URL="../Core-CatchAndClearError.vi"/>
 		</Item>
