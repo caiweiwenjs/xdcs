@@ -130,6 +130,8 @@
 			<Item Name="Terminal_Drive_Syetem_Display.vi" Type="VI" URL="../Terminal_Drive_Syetem_Display.vi"/>
 			<Item Name="Terminal_Friction_Torque.vi" Type="VI" URL="../Terminal_Friction_Torque.vi"/>
 			<Item Name="Terminal_Gear_System_Dispaly.vi" Type="VI" URL="../Terminal_Gear_System_Dispaly.vi"/>
+			<Item Name="Terminal_Global_ReferenceValue_Read.vi" Type="VI" URL="../Terminal_Global_ReferenceValue_Read.vi"/>
+			<Item Name="Terminal_Global_TestID.vi" Type="VI" URL="../Terminal_Global_TestID.vi"/>
 			<Item Name="Terminal_Log_In_Judge.vi" Type="VI" URL="../Terminal_Log_In_Judge.vi"/>
 			<Item Name="Terminal_PressureSyetem_Work_Condition.vi" Type="VI" URL="../Terminal_PressureSyetem_Work_Condition.vi"/>
 			<Item Name="Terminal_Random_Select.vi" Type="VI" URL="../Terminal_Random_Select.vi"/>
@@ -253,7 +255,6 @@
 		</Item>
 		<Item Name="SharedVariables.lvlib" Type="Library" URL="../SharedVariables.lvlib"/>
 		<Item Name="SV-Test.lvlib" Type="Library" URL="../SV-Test.lvlib"/>
-		<Item Name="Terminal_Global_TestID.vi" Type="VI" URL="../Terminal_Global_TestID.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="ADO Connection Close.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/Connection/ADO Connection Close.vi"/>
