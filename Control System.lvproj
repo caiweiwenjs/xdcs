@@ -46,7 +46,6 @@
 		</Item>
 		<Item Name="SQL" Type="Folder">
 			<Item Name="executesql.vi" Type="VI" URL="../executesql.vi"/>
-			<Item Name="SQL_6220_data_insert.vi" Type="VI" URL="../SQL_6220_data_insert.vi"/>
 			<Item Name="SQL_configuration_select_table.vi" Type="VI" URL="../SQL_configuration_select_table.vi"/>
 			<Item Name="SQL_configuration_update.vi" Type="VI" URL="../SQL_configuration_update.vi"/>
 			<Item Name="SQL_monitor_data_settinngs_select.vi" Type="VI" URL="../SQL_monitor_data_settinngs_select.vi"/>
@@ -69,6 +68,7 @@
 		</Item>
 		<Item Name="TDMS" Type="Folder">
 			<Item Name="6133_SaveToTDMS.vi" Type="VI" URL="../6133_SaveToTDMS.vi"/>
+			<Item Name="6220_SaveToTDMS.vi" Type="VI" URL="../6220_SaveToTDMS.vi"/>
 			<Item Name="ReadDataFromTDMS.vi" Type="VI" URL="../ReadDataFromTDMS.vi"/>
 			<Item Name="ReadFromTDMS.vi" Type="VI" URL="../ReadFromTDMS.vi"/>
 			<Item Name="WriteToTDMS.vi" Type="VI" URL="../WriteToTDMS.vi"/>
