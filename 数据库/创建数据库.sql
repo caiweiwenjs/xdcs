@@ -21,7 +21,7 @@ is_administrator int			--用户类型： true超级用户 false一般用户
 --工作条件及报警门限表
 create table table_monitor_data_settings
 (
-monitor_data_Index int identity(1,1),	--序号
+monitor_data_Id int identity(1,1),	--序号
 unit_name varchar(64),      --单元名称
 monitor_data varchar(64),   --监测量
 reference_value float,	    --参考值
@@ -45,7 +45,7 @@ remark varchar(1024)			--备注
 --配置参数表   
 create table table_configuration
 (
-configurationIndex int identity(1,1),		--序号
+configurationId int identity(1,1),		--序号
 paramname varchar(128),					--参数名称
 sampleRate int,								--采样率
 analysisRate int							--分析频率
@@ -67,8 +67,9 @@ duration float,				--持续时间
 
 create table table_Load
 (
+loadId int identity(1,1),	--表格ID
 testId int,					--testID
-tempName varchar(128),		--模板名称
+loadName varchar(128),		--载荷谱名称
 speed float,				--转速
 axialLoad float,			--轴向载荷
 radialLoad float,			--径向载荷
@@ -78,8 +79,10 @@ oilFlow float,				--供油流量
 duration float,				--持续时间
 );
 
+
 create table table_unit_test
 (
+unit_test_Id int identity(1,1), --表格ID
 testId int,					--testID
 testTime datetime,			--测试时间
 dataName varchar(64),		--数据名称
@@ -89,9 +92,10 @@ value float					--数值
 --试验表
 create table table_test	
 (
-testIndex int identity(1,1),		--试验编号
+testId int identity(1,1),		--试验编号
 tester varchar(64),					--试验人员，执行此试验的用户
-testTime datetime					--试验开始时间
+testTime datetime,					--试验开始时间
+data_table_name varchar(1024)		--实验数据表的名称
 );
 
 --试验数据表
@@ -158,7 +162,7 @@ insert into table_configuration values('轴向油缸力', 10, 10);
 
 
  
- insert into table_monitor_data_settings values('试验轴承单元', '油箱1油液温度', 100,-1,0,0);
+insert into table_monitor_data_settings values('试验轴承单元', '油箱1油液温度', 100,-1,0,0);
 insert into table_monitor_data_settings values('试验轴承单元', '油箱2油液温度', 100,-1,0,0);
 insert into table_monitor_data_settings values('试验轴承单元', '供油压力',10000,-1,0.01,0);
 insert into table_monitor_data_settings values('陪试轴承单元', '供油流量', 1000,0,-1,0);
