@@ -30,41 +30,17 @@ alarm_condition_accuracy float,      --报警条件
 alarm_level int             --报警级别
 );
 
---报警记录表
-create table table_warning_record   
+--单元系统数据表
+create table table_unit_test
 (
-warningId int identity(1,1),	--报警ID
-testID int,						--试验ID
-warningTime datetime,			--报警时间
-warningLevel int,				--报警级别
-warningSys varchar(128),		--报警系统
-detail varchar(1024),			--报警详情
-remark varchar(1024)			--备注
+unit_test_Id int identity(1,1), --表格ID
+testId int,					--testID
+testTime datetime,			--测试时间
+dataName varchar(64),		--数据名称
+value float					--数值
 );
 
---配置参数表   
-create table table_configuration
-(
-configurationId int identity(1,1),		--序号
-paramname varchar(128),					--参数名称
-sampleRate int,								--采样率
-analysisRate int							--分析频率
-);
-
---试验模板表
-create table table_test_template
-(
-tempNo int,					--模板编号
-tempName varchar(128),		--模板名称
-speed float,				--转速
-axialLoad float,			--轴向载荷
-radialLoad float,			--径向载荷
-oilTemperature float,		--供油油温
-oilPressure float,			--供油压力
-oilFlow float,				--供油流量
-duration float,				--持续时间
-); 
-
+--载荷谱执行表
 create table table_Load
 (
 loadId int identity(1,1),	--表格ID
@@ -79,14 +55,16 @@ oilFlow float,				--供油流量
 duration float,				--持续时间
 );
 
-
-create table table_unit_test
+--报警记录表
+create table table_warning_record   
 (
-unit_test_Id int identity(1,1), --表格ID
-testId int,					--testID
-testTime datetime,			--测试时间
-dataName varchar(64),		--数据名称
-value float					--数值
+warningId int identity(1,1),	--报警ID
+testID int,						--试验ID
+warningTime datetime,			--报警时间
+warningLevel int,				--报警级别
+warningSys varchar(128),		--报警系统
+detail varchar(1024),			--报警详情
+remark varchar(1024)			--备注
 );
 
 --试验表
@@ -94,9 +72,34 @@ create table table_test
 (
 testId int identity(1,1),		--试验编号
 tester varchar(64),					--试验人员，执行此试验的用户
-testTime datetime,					--试验开始时间
-data_table_name varchar(1024)		--实验数据表的名称
+test_StartTime datetime,					--试验开始时间
+test_EndTime datetime,                  --实验结束时间
 );
+
+
+--配置参数表   
+create table table_configuration
+(
+configurationId int identity(1,1),		--序号
+paramname varchar(128),					--参数名称
+sampleRate int,								--采样率
+analysisRate int							--分析频率
+);
+
+--试验模板表
+create table table_test_template
+(
+tempNo int identity(1,1),	--模板编号
+tempName varchar(128),		--模板名称
+speed float,				--转速
+axialLoad float,			--轴向载荷
+radialLoad float,			--径向载荷
+oilTemperature float,		--供油油温
+oilPressure float,			--供油压力
+oilFlow float,				--供油流量
+duration float,				--持续时间
+); 
+
 
 --试验数据表
 create table table_test_data
@@ -129,12 +132,12 @@ end
 
 
 go
-insert into table_test_template values(0,'模板一',100,200,300,400,500,600,700);
-insert into table_test_template values(1,'模板一',200,300,400,500,600,700,800);
-insert into table_test_template values(2,'模板二',300,200,300,400,500,600,700);
-insert into table_test_template values(3,'模板二',400,300,400,500,600,700,800);
-insert into table_test_template values(4,'模板三',500,200,300,400,500,600,700);
-insert into table_test_template values(5,'模板三',600,300,400,500,600,700,800);
+insert into table_test_template values('模板一',100,200,300,400,500,600,700);
+insert into table_test_template values('模板一',200,300,400,500,600,700,800);
+insert into table_test_template values('模板二',300,200,300,400,500,600,700);
+insert into table_test_template values('模板二',400,300,400,500,600,700,800);
+insert into table_test_template values('模板三',500,200,300,400,500,600,700);
+insert into table_test_template values('模板三',600,300,400,500,600,700,800);
 
 insert into table_users values('管理员1','123',1);
 insert into table_users values('管理员2','234',1);
