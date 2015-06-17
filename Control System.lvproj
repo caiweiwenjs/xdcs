@@ -479,18 +479,10 @@
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
-			<Item Name="MB Decode Data.vi" Type="VI" URL="../../../../Desktop/测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Decode Data.vi"/>
-			<Item Name="MB Ethernet Master Query Read Holding Registers (poly).vi" Type="VI" URL="../../../../Desktop/测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Ethernet Master Query Read Holding Registers (poly).vi"/>
-			<Item Name="MB Ethernet Master Query Write Multiple Coils (poly).vi" Type="VI" URL="../../../../Desktop/测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Ethernet Master Query Write Multiple Coils (poly).vi"/>
-			<Item Name="MB Ethernet Master Query Write Multiple Registers (poly).vi" Type="VI" URL="../../../../Desktop/测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Ethernet Master Query Write Multiple Registers (poly).vi"/>
-			<Item Name="MB Ethernet Master Query Write Single Register (poly).vi" Type="VI" URL="../../../../Desktop/测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Ethernet Master Query Write Single Register (poly).vi"/>
-			<Item Name="MB Ethernet Master Query.vi" Type="VI" URL="../../../../Desktop/测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Ethernet Master Query.vi"/>
-			<Item Name="MB Ethernet Receive.vi" Type="VI" URL="../../../../Desktop/测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Ethernet Receive.vi"/>
-			<Item Name="MB Ethernet String to Modbus Data Unit.vi" Type="VI" URL="../../../../Desktop/测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Ethernet String to Modbus Data Unit.vi"/>
-			<Item Name="MB Ethernet Transmit.vi" Type="VI" URL="../../../../Desktop/测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Ethernet Transmit.vi"/>
-			<Item Name="MB Modbus Command to Data Unit.vi" Type="VI" URL="../../../../Desktop/测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Modbus Command to Data Unit.vi"/>
-			<Item Name="MB Modbus Command.ctl" Type="VI" URL="../../../../Desktop/测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Modbus Command.ctl"/>
-			<Item Name="MB Modbus Data Unit.ctl" Type="VI" URL="../../../../Desktop/测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Modbus Data Unit.ctl"/>
+			<Item Name="MB Ethernet Master Query Read Holding Registers (poly).vi" Type="VI" URL="/Desktop/测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Ethernet Master Query Read Holding Registers (poly).vi"/>
+			<Item Name="MB Ethernet Master Query Write Multiple Coils (poly).vi" Type="VI" URL="/Desktop/测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Ethernet Master Query Write Multiple Coils (poly).vi"/>
+			<Item Name="MB Ethernet Master Query Write Multiple Registers (poly).vi" Type="VI" URL="/Desktop/测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Ethernet Master Query Write Multiple Registers (poly).vi"/>
+			<Item Name="MB Ethernet Master Query Write Single Register (poly).vi" Type="VI" URL="/Desktop/测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Ethernet Master Query Write Single Register (poly).vi"/>
 			<Item Name="mydaq.vi" Type="VI" URL="../../../mydaq.vi"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
