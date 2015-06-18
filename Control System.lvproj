@@ -136,14 +136,13 @@
 			<Item Name="Terminal_Global_TestID.vi" Type="VI" URL="../Terminal_Global_TestID.vi"/>
 			<Item Name="Terminal_Log_In_Judge.vi" Type="VI" URL="../Terminal_Log_In_Judge.vi"/>
 			<Item Name="Terminal_PressureSyetem_Work_Condition.vi" Type="VI" URL="../Terminal_PressureSyetem_Work_Condition.vi"/>
+			<Item Name="Terminal_PressureSystem_Display.vi" Type="VI" URL="../Terminal_PressureSystem_Display.vi"/>
 			<Item Name="Terminal_Random_Select.vi" Type="VI" URL="../Terminal_Random_Select.vi"/>
 			<Item Name="Terminal_Work_Condition.vi" Type="VI" URL="../Terminal_Work_Condition.vi"/>
 			<Item Name="Terminla_GearSystem_Work_Condition.vi" Type="VI" URL="../Terminla_GearSystem_Work_Condition.vi"/>
 			<Item Name="Work_Condition.vi" Type="VI" URL="../Work_Condition.vi"/>
 		</Item>
 		<Item Name="Test" Type="Folder">
-			<Item Name="my UDP Receiver.vi" Type="VI" URL="../my UDP Receiver.vi"/>
-			<Item Name="my UDP Sender.vi" Type="VI" URL="../my UDP Sender.vi"/>
 			<Item Name="TCP client test.vi" Type="VI" URL="../TCP client test.vi"/>
 			<Item Name="TCP service test.vi" Type="VI" URL="../TCP service test.vi"/>
 			<Item Name="Test-Alert-Handler.vi" Type="VI" URL="../Test-Alert-Handler.vi"/>
@@ -257,6 +256,7 @@
 			<Item Name="退出登录1.ctl" Type="VI" URL="../退出登录1.ctl"/>
 			<Item Name="用户管理.ctl" Type="VI" URL="../用户管理.ctl"/>
 		</Item>
+		<Item Name="MB Serial Master Query Write Single Register (poly).vi" Type="VI" URL="../NI Modbus.llb/MB Serial Master Query Write Single Register (poly).vi"/>
 		<Item Name="SharedVariables.lvlib" Type="Library" URL="../SharedVariables.lvlib"/>
 		<Item Name="SV-Test.lvlib" Type="Library" URL="../SV-Test.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
@@ -482,30 +482,26 @@
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
-<<<<<<< Updated upstream
-			<Item Name="MB Decode Data.vi" Type="VI" URL="../../../测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Decode Data.vi"/>
-			<Item Name="MB Ethernet Master Query Read Holding Registers (poly).vi" Type="VI" URL="../../../测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Ethernet Master Query Read Holding Registers (poly).vi"/>
-			<Item Name="MB Ethernet Master Query Write Multiple Coils (poly).vi" Type="VI" URL="../../../测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Ethernet Master Query Write Multiple Coils (poly).vi"/>
-			<Item Name="MB Ethernet Master Query Write Multiple Registers (poly).vi" Type="VI" URL="../../../测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Ethernet Master Query Write Multiple Registers (poly).vi"/>
-			<Item Name="MB Ethernet Master Query Write Single Register (poly).vi" Type="VI" URL="../../../测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Ethernet Master Query Write Single Register (poly).vi"/>
-			<Item Name="MB Ethernet Master Query.vi" Type="VI" URL="../../../测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Ethernet Master Query.vi"/>
-			<Item Name="MB Ethernet Receive.vi" Type="VI" URL="../../../测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Ethernet Receive.vi"/>
-			<Item Name="MB Ethernet String to Modbus Data Unit.vi" Type="VI" URL="../../../测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Ethernet String to Modbus Data Unit.vi"/>
-			<Item Name="MB Ethernet Transmit.vi" Type="VI" URL="../../../测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Ethernet Transmit.vi"/>
-			<Item Name="MB Modbus Command to Data Unit.vi" Type="VI" URL="../../../测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Modbus Command to Data Unit.vi"/>
-			<Item Name="MB Modbus Command.ctl" Type="VI" URL="../../../测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Modbus Command.ctl"/>
-			<Item Name="MB Modbus Data Unit.ctl" Type="VI" URL="../../../测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Modbus Data Unit.ctl"/>
-=======
-			<Item Name="MB Ethernet Master Query Read Holding Registers (poly).vi" Type="VI" URL="../../../../Desktop/测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Ethernet Master Query Read Holding Registers (poly).vi"/>
-			<Item Name="MB Ethernet Master Query Write Multiple Coils (poly).vi" Type="VI" URL="../../../../Desktop/测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Ethernet Master Query Write Multiple Coils (poly).vi"/>
-			<Item Name="MB Ethernet Master Query Write Multiple Registers (poly).vi" Type="VI" URL="../../../../Desktop/测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Ethernet Master Query Write Multiple Registers (poly).vi"/>
-			<Item Name="MB Ethernet Master Query Write Single Register (poly).vi" Type="VI" URL="../../../../Desktop/测控系统/nimodbus121/86/vi.lib/NI Modbus.llb/MB Ethernet Master Query Write Single Register (poly).vi"/>
->>>>>>> Stashed changes
-			<Item Name="mydaq.vi" Type="VI" URL="../../../mydaq.vi"/>
+			<Item Name="MB Decode Data.vi" Type="VI" URL="../NI Modbus.llb/MB Decode Data.vi"/>
+			<Item Name="MB Ethernet Master Query Read Holding Registers (poly).vi" Type="VI" URL="../NI Modbus.llb/MB Ethernet Master Query Read Holding Registers (poly).vi"/>
+			<Item Name="MB Ethernet Master Query Write Multiple Coils (poly).vi" Type="VI" URL="../NI Modbus.llb/MB Ethernet Master Query Write Multiple Coils (poly).vi"/>
+			<Item Name="MB Ethernet Master Query Write Multiple Registers (poly).vi" Type="VI" URL="../NI Modbus.llb/MB Ethernet Master Query Write Multiple Registers (poly).vi"/>
+			<Item Name="MB Ethernet Master Query.vi" Type="VI" URL="../NI Modbus.llb/MB Ethernet Master Query.vi"/>
+			<Item Name="MB Ethernet Receive.vi" Type="VI" URL="../NI Modbus.llb/MB Ethernet Receive.vi"/>
+			<Item Name="MB Ethernet String to Modbus Data Unit.vi" Type="VI" URL="../NI Modbus.llb/MB Ethernet String to Modbus Data Unit.vi"/>
+			<Item Name="MB Ethernet Transmit.vi" Type="VI" URL="../NI Modbus.llb/MB Ethernet Transmit.vi"/>
+			<Item Name="MB LRC-8.vi" Type="VI" URL="../NI Modbus.llb/MB LRC-8.vi"/>
+			<Item Name="MB Modbus Command to Data Unit.vi" Type="VI" URL="../NI Modbus.llb/MB Modbus Command to Data Unit.vi"/>
+			<Item Name="MB Modbus Command.ctl" Type="VI" URL="../NI Modbus.llb/MB Modbus Command.ctl"/>
+			<Item Name="MB Modbus Data Unit.ctl" Type="VI" URL="../NI Modbus.llb/MB Modbus Data Unit.ctl"/>
+			<Item Name="MB Serial Master Query.vi" Type="VI" URL="../NI Modbus.llb/MB Serial Master Query.vi"/>
+			<Item Name="MB Serial Modbus Data Unit to String.vi" Type="VI" URL="../NI Modbus.llb/MB Serial Modbus Data Unit to String.vi"/>
+			<Item Name="MB Serial Receive.vi" Type="VI" URL="../NI Modbus.llb/MB Serial Receive.vi"/>
+			<Item Name="MB Serial String to Modbus Data Unit.vi" Type="VI" URL="../NI Modbus.llb/MB Serial String to Modbus Data Unit.vi"/>
+			<Item Name="MB Serial Transmit.vi" Type="VI" URL="../NI Modbus.llb/MB Serial Transmit.vi"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Terminal_PressureSystem_Display.vi" Type="VI" URL="../Terminal_PressureSystem_Display.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build"/>
 	</Item>
