@@ -256,7 +256,6 @@
 			<Item Name="退出登录1.ctl" Type="VI" URL="../退出登录1.ctl"/>
 			<Item Name="用户管理.ctl" Type="VI" URL="../用户管理.ctl"/>
 		</Item>
-		<Item Name="MB Serial Master Query Write Single Register (poly).vi" Type="VI" URL="../NI Modbus.llb/MB Serial Master Query Write Single Register (poly).vi"/>
 		<Item Name="SharedVariables.lvlib" Type="Library" URL="../SharedVariables.lvlib"/>
 		<Item Name="SV-Test.lvlib" Type="Library" URL="../SV-Test.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
@@ -494,6 +493,7 @@
 			<Item Name="MB Modbus Command to Data Unit.vi" Type="VI" URL="../NI Modbus.llb/MB Modbus Command to Data Unit.vi"/>
 			<Item Name="MB Modbus Command.ctl" Type="VI" URL="../NI Modbus.llb/MB Modbus Command.ctl"/>
 			<Item Name="MB Modbus Data Unit.ctl" Type="VI" URL="../NI Modbus.llb/MB Modbus Data Unit.ctl"/>
+			<Item Name="MB Serial Master Query Write Single Register (poly).vi" Type="VI" URL="../NI Modbus.llb/MB Serial Master Query Write Single Register (poly).vi"/>
 			<Item Name="MB Serial Master Query.vi" Type="VI" URL="../NI Modbus.llb/MB Serial Master Query.vi"/>
 			<Item Name="MB Serial Modbus Data Unit to String.vi" Type="VI" URL="../NI Modbus.llb/MB Serial Modbus Data Unit to String.vi"/>
 			<Item Name="MB Serial Receive.vi" Type="VI" URL="../NI Modbus.llb/MB Serial Receive.vi"/>
