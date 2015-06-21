@@ -2,7 +2,7 @@
 <Project Type="Project" LVVersion="14008000">
 	<Property Name="varPersistentID:{56697613-18FC-4591-B677-5CD031600F24}" Type="Ref">/我的电脑/SV-Test.lvlib/AlertQueue</Property>
 	<Property Name="varPersistentID:{68858898-28B4-4DA7-B8FF-70CCAB336381}" Type="Ref">/我的电脑/SV-Test.lvlib/AlertData</Property>
-	<Property Name="varPersistentID:{ABA1C29B-1BA4-4912-B3B9-A24851AAF8D7}" Type="Ref">/我的电脑/SharedVariables.lvlib/报警队列</Property>
+	<Property Name="varPersistentID:{BFAC0D81-70F5-45A6-AE03-0EE82AE96EA9}" Type="Ref">/我的电脑/SharedVariables.lvlib/报警队列</Property>
 	<Item Name="我的电脑" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -78,6 +78,7 @@
 			<Item Name="Terminal-Alert-6133.vi" Type="VI" URL="../Terminal-Alert-6133.vi"/>
 			<Item Name="Terminal-Alert-6220.vi" Type="VI" URL="../Terminal-Alert-6220.vi"/>
 			<Item Name="Terminal-Alert-DriverSystem.vi" Type="VI" URL="../Terminal-Alert-DriverSystem.vi"/>
+			<Item Name="Terminal-Alert-ErrorTrigger.vi" Type="VI" URL="../Terminal-Alert-ErrorTrigger.vi"/>
 			<Item Name="Terminal-Alert-GearSystem.vi" Type="VI" URL="../Terminal-Alert-GearSystem.vi"/>
 			<Item Name="Terminal-Alert-Handler.vi" Type="VI" URL="../Terminal-Alert-Handler.vi"/>
 			<Item Name="Terminal-Alert-Init.vi" Type="VI" URL="../Terminal-Alert-Init.vi"/>

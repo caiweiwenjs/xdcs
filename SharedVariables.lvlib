@@ -10,6 +10,6 @@
 		<Property Name="Network:UseBuffering" Type="Str">True</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#.C1!!!"1!A!!!!!!(!!V!"Q!'SN42[5F%!!!31$$`````#,'IPK_]NL(Q!!!31$$`````#,'IPK`0N=WT!!!31$$`````#,'IPK`0[M@J!!!/1$$`````",'YV[)!!"J!5!!&amp;!!!!!1!#!!-!"!CRK,[PSPW_X1!!#A"Q!")!!1!&amp;!!%!"A!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"_?A!!!"1!A!!!!!!'!"*!-0````])M;C_L\SWM@!!!"*!-0````])M;C_L]_VT&lt;-!!"*!-0````])M;C_L]`KR_E!!!Z!-0````]%M&lt;D8IA!!'%"1!!1!!!!"!!)!!QCRK,[PU-80IA!!#A"Q!")!!1!%!!%!"1!!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>
