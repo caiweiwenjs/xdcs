@@ -12,4 +12,17 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"_?A!!!"1!A!!!!!!'!"*!-0````])M;C_L\SWM@!!!"*!-0````])M;C_L]_VT&lt;-!!"*!-0````])M;C_L]`KR_E!!!Z!-0````]%M&lt;D8IA!!'%"1!!1!!!!"!!)!!QCRK,[PU-80IA!!#A"Q!")!!1!%!!%!"1!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="载荷谱通知队列" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!":61!!!"1!A!!!!!!#!$=!&amp;A!'".8^M[-)R.KSP^,MM[-+U.[YR.49OMH'VQD.YL+`UOSTIQD.YL+`T;07O14'Z-P\!!!+!(!!%A!"!!!!!1!"!!!!!!!!!!!!!!!!</Property>
+	</Item>
 </Library>

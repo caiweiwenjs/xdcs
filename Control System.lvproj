@@ -3,6 +3,7 @@
 	<Property Name="varPersistentID:{56697613-18FC-4591-B677-5CD031600F24}" Type="Ref">/我的电脑/SV-Test.lvlib/AlertQueue</Property>
 	<Property Name="varPersistentID:{68858898-28B4-4DA7-B8FF-70CCAB336381}" Type="Ref">/我的电脑/SV-Test.lvlib/AlertData</Property>
 	<Property Name="varPersistentID:{BFAC0D81-70F5-45A6-AE03-0EE82AE96EA9}" Type="Ref">/我的电脑/SharedVariables.lvlib/报警队列</Property>
+	<Property Name="varPersistentID:{C72127D9-C479-4AEE-854E-F263A704A53A}" Type="Ref">/我的电脑/SharedVariables.lvlib/载荷谱通知队列</Property>
 	<Item Name="我的电脑" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -101,6 +102,8 @@
 			<Item Name="Terminal-GearSystem-SwitchSetter.vi" Type="VI" URL="../Terminal-GearSystem-SwitchSetter.vi"/>
 			<Item Name="Terminal-Global-ReferenceValues.vi" Type="VI" URL="../Terminal-Global-ReferenceValues.vi"/>
 			<Item Name="Terminal-Global-SetValues.vi" Type="VI" URL="../Terminal-Global-SetValues.vi"/>
+			<Item Name="Terminal-LoadSpectrum-ExecuteRow.vi" Type="VI" URL="../Terminal-LoadSpectrum-ExecuteRow.vi"/>
+			<Item Name="Terminal-LoadSpectrum-InitQueue.vi" Type="VI" URL="../Terminal-LoadSpectrum-InitQueue.vi"/>
 			<Item Name="Terminal-Main-DeviceLubricateUnit.vi" Type="VI" URL="../Terminal-Main-DeviceLubricateUnit.vi"/>
 			<Item Name="Terminal-Main-DriverSystem.vi" Type="VI" URL="../Terminal-Main-DriverSystem.vi"/>
 			<Item Name="Terminal-Main-GearSystem.vi" Type="VI" URL="../Terminal-Main-GearSystem.vi"/>
