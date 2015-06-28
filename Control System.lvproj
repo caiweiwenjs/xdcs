@@ -57,8 +57,13 @@
 			<Item Name="SQL_Table_Test_Insert.vi" Type="VI" URL="../SQL_Table_Test_Insert.vi"/>
 			<Item Name="SQL_Table_Test_Select.vi" Type="VI" URL="../SQL_Table_Test_Select.vi"/>
 			<Item Name="SQL_Table_Test_SelectByTime.vi" Type="VI" URL="../SQL_Table_Test_SelectByTime.vi"/>
+			<Item Name="SQL_Table_Unit_Test_Drive_System_insert.vi" Type="VI" URL="../SQL_Table_Unit_Test_Drive_System_insert.vi"/>
+			<Item Name="SQL_Table_Unit_Test_Gear_System_Insert.vi" Type="VI" URL="../SQL_Table_Unit_Test_Gear_System_Insert.vi"/>
+			<Item Name="SQL_Table_Unit_Test_insert.vi" Type="VI" URL="../SQL_Table_Unit_Test_insert.vi"/>
+			<Item Name="SQL_Table_Unit_Test_Pressure_Insert.vi" Type="VI" URL="../SQL_Table_Unit_Test_Pressure_Insert.vi"/>
 			<Item Name="SQL_table_users_admin_select_table.vi" Type="VI" URL="../SQL_table_users_admin_select_table.vi"/>
 			<Item Name="SQL_table_users_nonadmin_select_table.vi" Type="VI" URL="../SQL_table_users_nonadmin_select_table.vi"/>
+			<Item Name="SQL_Table_Warning_Record_Insert.vi" Type="VI" URL="../SQL_Table_Warning_Record_Insert.vi"/>
 			<Item Name="SQL_test_data_select.vi" Type="VI" URL="../SQL_test_data_select.vi"/>
 			<Item Name="SQL_Test_Data_SelectByTime.vi" Type="VI" URL="../SQL_Test_Data_SelectByTime.vi"/>
 			<Item Name="SQL_test_template_selete.vi" Type="VI" URL="../SQL_test_template_selete.vi"/>

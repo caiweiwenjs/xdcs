@@ -61,7 +61,7 @@ create table table_warning_record
 warningId int identity(1,1),	--报警ID
 testID int,						--试验ID
 warningTime datetime,			--报警时间
-warningLevel int,				--报警级别
+warningLevel varchar(64),				--报警级别
 warningSys varchar(128),		--报警系统
 detail varchar(1024),			--报警详情
 remark varchar(1024)			--备注
