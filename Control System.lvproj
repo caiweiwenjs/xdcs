@@ -57,6 +57,7 @@
 			<Item Name="SQL_Table_Test_Insert.vi" Type="VI" URL="../SQL_Table_Test_Insert.vi"/>
 			<Item Name="SQL_Table_Test_Select.vi" Type="VI" URL="../SQL_Table_Test_Select.vi"/>
 			<Item Name="SQL_Table_Test_SelectByTime.vi" Type="VI" URL="../SQL_Table_Test_SelectByTime.vi"/>
+			<Item Name="SQL_Table_Test_Time_Judge.vi" Type="VI" URL="../SQL_Table_Test_Time_Judge.vi"/>
 			<Item Name="SQL_Table_Unit_Test_Drive_System_insert.vi" Type="VI" URL="../SQL_Table_Unit_Test_Drive_System_insert.vi"/>
 			<Item Name="SQL_Table_Unit_Test_Gear_System_Insert.vi" Type="VI" URL="../SQL_Table_Unit_Test_Gear_System_Insert.vi"/>
 			<Item Name="SQL_Table_Unit_Test_insert.vi" Type="VI" URL="../SQL_Table_Unit_Test_insert.vi"/>
@@ -64,9 +65,11 @@
 			<Item Name="SQL_table_users_admin_select_table.vi" Type="VI" URL="../SQL_table_users_admin_select_table.vi"/>
 			<Item Name="SQL_table_users_nonadmin_select_table.vi" Type="VI" URL="../SQL_table_users_nonadmin_select_table.vi"/>
 			<Item Name="SQL_Table_Warning_Record_Insert.vi" Type="VI" URL="../SQL_Table_Warning_Record_Insert.vi"/>
-			<Item Name="SQL_test_data_select.vi" Type="VI" URL="../SQL_test_data_select.vi"/>
-			<Item Name="SQL_Test_Data_SelectByTime.vi" Type="VI" URL="../SQL_Test_Data_SelectByTime.vi"/>
-			<Item Name="SQL_test_template_selete.vi" Type="VI" URL="../SQL_test_template_selete.vi"/>
+			<Item Name="SQL_test_template_deletebyname.vi" Type="VI" URL="../SQL_test_template_deletebyname.vi"/>
+			<Item Name="SQL_test_template_insert.vi" Type="VI" URL="../SQL_test_template_insert.vi"/>
+			<Item Name="SQL_test_template_name_select.vi" Type="VI" URL="../SQL_test_template_name_select.vi"/>
+			<Item Name="SQL_test_template_select.vi" Type="VI" URL="../SQL_test_template_select.vi"/>
+			<Item Name="SQL_test_Template_selectbyname.vi" Type="VI" URL="../SQL_test_Template_selectbyname.vi"/>
 			<Item Name="SQL_test_template_update.vi" Type="VI" URL="../SQL_test_template_update.vi"/>
 			<Item Name="SQL_User_Display.vi" Type="VI" URL="../SQL_User_Display.vi"/>
 			<Item Name="SQL_users_delete.vi" Type="VI" URL="../SQL_users_delete.vi"/>
@@ -149,6 +152,7 @@
 			<Item Name="Terminal_PressureSyetem_Work_Condition.vi" Type="VI" URL="../Terminal_PressureSyetem_Work_Condition.vi"/>
 			<Item Name="Terminal_PressureSystem_Display.vi" Type="VI" URL="../Terminal_PressureSystem_Display.vi"/>
 			<Item Name="Terminal_Random_Select.vi" Type="VI" URL="../Terminal_Random_Select.vi"/>
+			<Item Name="Terminal_Voice_Signal_Processing.vi" Type="VI" URL="../Terminal_Voice_Signal_Processing.vi"/>
 			<Item Name="Terminal_Work_Condition.vi" Type="VI" URL="../Terminal_Work_Condition.vi"/>
 			<Item Name="Terminla_GearSystem_Work_Condition.vi" Type="VI" URL="../Terminla_GearSystem_Work_Condition.vi"/>
 			<Item Name="Work_Condition.vi" Type="VI" URL="../Work_Condition.vi"/>
@@ -188,7 +192,6 @@
 			<Item Name="UI_Lubricate_Unit.vi" Type="VI" URL="../UI_Lubricate_Unit.vi"/>
 			<Item Name="UI_Lubricate_Unit_Test.vi" Type="VI" URL="../UI_Lubricate_Unit_Test.vi"/>
 			<Item Name="UI_Monitor_Data_Setting.vi" Type="VI" URL="../UI_Monitor_Data_Setting.vi"/>
-			<Item Name="UI_Signal_Processing.vi" Type="VI" URL="../UI_Signal_Processing.vi"/>
 			<Item Name="UI_Test_Template_Modify.vi" Type="VI" URL="../UI_Test_Template_Modify.vi"/>
 			<Item Name="UI_Users_Manage.vi" Type="VI" URL="../UI_Users_Manage.vi"/>
 		</Item>
@@ -269,6 +272,7 @@
 			<Item Name="用户管理.ctl" Type="VI" URL="../用户管理.ctl"/>
 		</Item>
 		<Item Name="SharedVariables.lvlib" Type="Library" URL="../SharedVariables.lvlib"/>
+		<Item Name="SQL_test_template_find_testName.vi" Type="VI" URL="../SQL_test_template_find_testName.vi"/>
 		<Item Name="SV-Test.lvlib" Type="Library" URL="../SV-Test.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -285,6 +289,7 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
+				<Item Name="Check for Equality.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Check for Equality.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
@@ -441,6 +446,7 @@
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
+				<Item Name="DU64_U32SubtractWithBorrow.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/DU64_U32SubtractWithBorrow.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
@@ -458,12 +464,18 @@
 				<Item Name="GOOP Object Repository Method.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository Method.ctl"/>
 				<Item Name="GOOP Object Repository Statistics.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository Statistics.ctl"/>
 				<Item Name="GOOP Object Repository.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository.vi"/>
+				<Item Name="I128 Timestamp.ctl" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/I128 Timestamp.ctl"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="Modbus Master.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Modbus/master/Modbus Master.lvclass"/>
+				<Item Name="NI_AAL_SigProc.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AAL_SigProc.lvlib"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_Database_API.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/database/NI_Database_API.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
+				<Item Name="NI_MAPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MAPro.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
@@ -482,6 +494,7 @@
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
+				<Item Name="Timestamp Subtract.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/Timestamp Subtract.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
@@ -493,6 +506,7 @@
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="MB Decode Data.vi" Type="VI" URL="../NI Modbus.llb/MB Decode Data.vi"/>
 			<Item Name="MB Ethernet Master Query Read Holding Registers (poly).vi" Type="VI" URL="../NI Modbus.llb/MB Ethernet Master Query Read Holding Registers (poly).vi"/>
 			<Item Name="MB Ethernet Master Query Write Multiple Coils (poly).vi" Type="VI" URL="../NI Modbus.llb/MB Ethernet Master Query Write Multiple Coils (poly).vi"/>
