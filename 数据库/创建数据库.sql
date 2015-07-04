@@ -45,7 +45,6 @@ create table table_Load
 (
 loadId int identity(1,1),	--表格ID
 testId int,					--testID
-loadName varchar(128),		--载荷谱名称
 speed float,				--转速
 axialLoad float,			--轴向载荷
 radialLoad float,			--径向载荷
