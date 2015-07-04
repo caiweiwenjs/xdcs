@@ -53,6 +53,7 @@
 			<Item Name="SQL_configuration_update.vi" Type="VI" URL="../SQL_configuration_update.vi"/>
 			<Item Name="SQL_monitor_data_settinngs_select.vi" Type="VI" URL="../SQL_monitor_data_settinngs_select.vi"/>
 			<Item Name="SQL_monitor_data_settinngs_update.vi" Type="VI" URL="../SQL_monitor_data_settinngs_update.vi"/>
+			<Item Name="SQL_table_load_insert.vi" Type="VI" URL="../SQL_table_load_insert.vi"/>
 			<Item Name="SQL_Table_Test_Count.vi" Type="VI" URL="../SQL_Table_Test_Count.vi"/>
 			<Item Name="SQL_Table_Test_Insert.vi" Type="VI" URL="../SQL_Table_Test_Insert.vi"/>
 			<Item Name="SQL_Table_Test_Select.vi" Type="VI" URL="../SQL_Table_Test_Select.vi"/>
