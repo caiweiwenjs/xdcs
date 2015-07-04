@@ -112,6 +112,7 @@
 			<Item Name="Terminal-GearSystem-SwitchSetter.vi" Type="VI" URL="../Terminal-GearSystem-SwitchSetter.vi"/>
 			<Item Name="Terminal-Global-ReferenceValues.vi" Type="VI" URL="../Terminal-Global-ReferenceValues.vi"/>
 			<Item Name="Terminal-Global-SetValues.vi" Type="VI" URL="../Terminal-Global-SetValues.vi"/>
+			<Item Name="Terminal-Global-StatusValues.vi" Type="VI" URL="../Terminal-Global-StatusValues.vi"/>
 			<Item Name="Terminal-LoadSpectrum-Controller.vi" Type="VI" URL="../Terminal-LoadSpectrum-Controller.vi"/>
 			<Item Name="Terminal-LoadSpectrum-ExecuteRow.vi" Type="VI" URL="../Terminal-LoadSpectrum-ExecuteRow.vi"/>
 			<Item Name="Terminal-LoadSpectrum-InitQueue.vi" Type="VI" URL="../Terminal-LoadSpectrum-InitQueue.vi"/>
