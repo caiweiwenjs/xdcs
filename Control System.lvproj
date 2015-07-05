@@ -47,6 +47,21 @@
 			<Item Name="Modbus RTU Serial Request Translator.vi" Type="VI" URL="../Modbus RTU Serial Request Translator.vi"/>
 			<Item Name="Modbus RTU Serial Simulator.vi" Type="VI" URL="../Modbus RTU Serial Simulator.vi"/>
 		</Item>
+		<Item Name="Sngal_processing" Type="Folder">
+			<Item Name="加速度_波形指标.vi" Type="VI" URL="../加速度_波形指标.vi"/>
+			<Item Name="加速度_峰值.vi" Type="VI" URL="../加速度_峰值.vi"/>
+			<Item Name="加速度_绝对值-均值.vi" Type="VI" URL="../加速度_绝对值-均值.vi"/>
+			<Item Name="加速度_脉冲指标.vi" Type="VI" URL="../加速度_脉冲指标.vi"/>
+			<Item Name="加速度_峭度指标.vi" Type="VI" URL="../加速度_峭度指标.vi"/>
+			<Item Name="加速度_裕度指标.vi" Type="VI" URL="../加速度_裕度指标.vi"/>
+			<Item Name="加速度信号处理.vi" Type="VI" URL="../加速度信号处理.vi"/>
+			<Item Name="去除均值.vi" Type="VI" URL="../去除均值.vi"/>
+			<Item Name="声发射_RMS.vi" Type="VI" URL="../声发射_RMS.vi"/>
+			<Item Name="声发射_幅值.vi" Type="VI" URL="../声发射_幅值.vi"/>
+			<Item Name="声发射_事件数.vi" Type="VI" URL="../声发射_事件数.vi"/>
+			<Item Name="声发射频谱分析.vi" Type="VI" URL="../声发射频谱分析.vi"/>
+			<Item Name="声发射信号处理.vi" Type="VI" URL="../声发射信号处理.vi"/>
+		</Item>
 		<Item Name="SQL" Type="Folder">
 			<Item Name="executesql.vi" Type="VI" URL="../executesql.vi"/>
 			<Item Name="SQL_configuration_select_table.vi" Type="VI" URL="../SQL_configuration_select_table.vi"/>
@@ -57,6 +72,7 @@
 			<Item Name="SQL_Table_Test_Count.vi" Type="VI" URL="../SQL_Table_Test_Count.vi"/>
 			<Item Name="SQL_Table_Test_Insert.vi" Type="VI" URL="../SQL_Table_Test_Insert.vi"/>
 			<Item Name="SQL_Table_Test_Select.vi" Type="VI" URL="../SQL_Table_Test_Select.vi"/>
+			<Item Name="SQL_table_test_selectbyid.vi" Type="VI" URL="../SQL_table_test_selectbyid.vi"/>
 			<Item Name="SQL_Table_Test_SelectByTime.vi" Type="VI" URL="../SQL_Table_Test_SelectByTime.vi"/>
 			<Item Name="SQL_Table_Test_Time_Judge.vi" Type="VI" URL="../SQL_Table_Test_Time_Judge.vi"/>
 			<Item Name="SQL_Table_Unit_Test_Drive_System_insert.vi" Type="VI" URL="../SQL_Table_Unit_Test_Drive_System_insert.vi"/>
