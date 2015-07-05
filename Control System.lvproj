@@ -172,6 +172,7 @@
 			<Item Name="Test-SharedVariable2.vi" Type="VI" URL="../Test-SharedVariable2.vi"/>
 			<Item Name="Test-TimedLoop.vi" Type="VI" URL="../Test-TimedLoop.vi"/>
 			<Item Name="Test-TimeToString.vi" Type="VI" URL="../Test-TimeToString.vi"/>
+			<Item Name="Test-Timevi.vi" Type="VI" URL="../Test-Timevi.vi"/>
 			<Item Name="UDP receiver test.vi" Type="VI" URL="../UDP receiver test.vi"/>
 			<Item Name="UDP sender test.vi" Type="VI" URL="../UDP sender test.vi"/>
 		</Item>
