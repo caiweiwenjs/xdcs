@@ -52,6 +52,7 @@ oilTemperature float,		--供油油温
 oilPressure float,			--供油压力
 oilFlow float,				--供油流量
 duration float,				--持续时间
+res varchar(32),            --执行结果
 );
 
 --报警记录表
@@ -85,11 +86,11 @@ sampleRate int,								--采样率
 analysisRate int							--分析频率
 );
 
---试验模板表
-create table table_test_template
+--试验模板数据表
+create table table_test_template_data
 (
-tempNo int identity(1,1),	--模板编号
-tempName varchar(128),		--模板名称
+id int identity(1, 1),      --id
+tempNo int ,	            --模板编号
 speed float,				--转速
 axialLoad float,			--轴向载荷
 radialLoad float,			--径向载荷
@@ -99,6 +100,15 @@ oilFlow float,				--供油流量
 duration float,				--持续时间
 ); 
 
+--试验模板表
+create table table_test_template
+(
+tempNo int identity(1,1),	--模板编号
+tempName varchar(128),		--模板名称
+tempuserName varchar(128),      --创建人
+tempTime datetime       --创建时间 
+--是否需要模板创建人？模板创建时间？
+);
 
 --试验数据表
 create table table_test_data
@@ -131,12 +141,16 @@ end
 
 
 go
-insert into table_test_template values('模板一',100,200,300,400,500,600,700);
-insert into table_test_template values('模板一',200,300,400,500,600,700,800);
-insert into table_test_template values('模板二',300,200,300,400,500,600,700);
-insert into table_test_template values('模板二',400,300,400,500,600,700,800);
-insert into table_test_template values('模板三',500,200,300,400,500,600,700);
-insert into table_test_template values('模板三',600,300,400,500,600,700,800);
+insert into table_test_template values('模板一','用户1','2015/06/06');
+insert into table_test_template values('模板二','用户2','2015/06/06');
+insert into table_test_template values('模板三','管理员1','2015/06/06');
+
+insert into table_test_template_data values(1,100,200,300,400,500,600,7);
+insert into table_test_template_data values(1,200,300,400,500,600,700,8);
+insert into table_test_template_data values(2,300,200,300,400,500,600,7);
+insert into table_test_template_data values(2,400,300,400,500,600,700,8);
+insert into table_test_template_data values(3,500,200,300,400,500,600,7);
+insert into table_test_template_data values(3,600,300,400,500,600,700,8);
 
 insert into table_users values('管理员1','123',1);
 insert into table_users values('管理员2','234',1);

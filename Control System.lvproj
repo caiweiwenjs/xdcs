@@ -82,12 +82,14 @@
 			<Item Name="SQL_table_users_admin_select_table.vi" Type="VI" URL="../SQL_table_users_admin_select_table.vi"/>
 			<Item Name="SQL_table_users_nonadmin_select_table.vi" Type="VI" URL="../SQL_table_users_nonadmin_select_table.vi"/>
 			<Item Name="SQL_Table_Warning_Record_Insert.vi" Type="VI" URL="../SQL_Table_Warning_Record_Insert.vi"/>
-			<Item Name="SQL_test_template_deletebyname.vi" Type="VI" URL="../SQL_test_template_deletebyname.vi"/>
-			<Item Name="SQL_test_template_insert.vi" Type="VI" URL="../SQL_test_template_insert.vi"/>
+			<Item Name="SQL_Template_deletebyId.vi" Type="VI" URL="../SQL_Template_deletebyId.vi"/>
+			<Item Name="SQL_Template_insertbyname.vi" Type="VI" URL="../SQL_Template_insertbyname.vi"/>
+			<Item Name="SQL_Template_selectidbyname.vi" Type="VI" URL="../SQL_Template_selectidbyname.vi"/>
+			<Item Name="SQL_test_template_data_deletebytempNo.vi" Type="VI" URL="../SQL_test_template_data_deletebytempNo.vi"/>
+			<Item Name="SQL_test_template_data_insert.vi" Type="VI" URL="../SQL_test_template_data_insert.vi"/>
 			<Item Name="SQL_test_template_name_select.vi" Type="VI" URL="../SQL_test_template_name_select.vi"/>
-			<Item Name="SQL_test_template_select.vi" Type="VI" URL="../SQL_test_template_select.vi"/>
 			<Item Name="SQL_test_Template_selectbyname.vi" Type="VI" URL="../SQL_test_Template_selectbyname.vi"/>
-			<Item Name="SQL_test_template_update.vi" Type="VI" URL="../SQL_test_template_update.vi"/>
+			<Item Name="SQL_Test_Template_updatename.vi" Type="VI" URL="../SQL_Test_Template_updatename.vi"/>
 			<Item Name="SQL_User_Display.vi" Type="VI" URL="../SQL_User_Display.vi"/>
 			<Item Name="SQL_users_delete.vi" Type="VI" URL="../SQL_users_delete.vi"/>
 			<Item Name="SQL_users_find.vi" Type="VI" URL="../SQL_users_find.vi"/>
@@ -165,7 +167,9 @@
 			<Item Name="Terminal_Friction_Torque.vi" Type="VI" URL="../Terminal_Friction_Torque.vi"/>
 			<Item Name="Terminal_Gear_System_Dispaly.vi" Type="VI" URL="../Terminal_Gear_System_Dispaly.vi"/>
 			<Item Name="Terminal_Global_ReferenceValue_Read.vi" Type="VI" URL="../Terminal_Global_ReferenceValue_Read.vi"/>
+			<Item Name="Terminal_Global_Template_Name.vi" Type="VI" URL="../Terminal_Global_Template_Name.vi"/>
 			<Item Name="Terminal_Global_TestID.vi" Type="VI" URL="../Terminal_Global_TestID.vi"/>
+			<Item Name="Terminal_Global_User_name.vi" Type="VI" URL="../Terminal_Global_User_name.vi"/>
 			<Item Name="Terminal_Log_In_Judge.vi" Type="VI" URL="../Terminal_Log_In_Judge.vi"/>
 			<Item Name="Terminal_PressureSyetem_Work_Condition.vi" Type="VI" URL="../Terminal_PressureSyetem_Work_Condition.vi"/>
 			<Item Name="Terminal_PressureSystem_Display.vi" Type="VI" URL="../Terminal_PressureSystem_Display.vi"/>
@@ -211,7 +215,9 @@
 			<Item Name="UI_Lubricate_Unit.vi" Type="VI" URL="../UI_Lubricate_Unit.vi"/>
 			<Item Name="UI_Lubricate_Unit_Test.vi" Type="VI" URL="../UI_Lubricate_Unit_Test.vi"/>
 			<Item Name="UI_Monitor_Data_Setting.vi" Type="VI" URL="../UI_Monitor_Data_Setting.vi"/>
-			<Item Name="UI_Test_Template_Modify.vi" Type="VI" URL="../UI_Test_Template_Modify.vi"/>
+			<Item Name="UI_Template_Add.vi" Type="VI" URL="../UI_Template_Add.vi"/>
+			<Item Name="UI_Template_modify.vi" Type="VI" URL="../UI_Template_modify.vi"/>
+			<Item Name="UI_Test_Template_Manage.vi" Type="VI" URL="../UI_Test_Template_Manage.vi"/>
 			<Item Name="UI_Users_Manage.vi" Type="VI" URL="../UI_Users_Manage.vi"/>
 		</Item>
 		<Item Name="换算公式" Type="Folder">
@@ -295,15 +301,15 @@
 		<Item Name="SV-Test.lvlib" Type="Library" URL="../SV-Test.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="ADO Connection Close.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/Connection/ADO Connection Close.vi"/>
-				<Item Name="ADO Connection Create.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/Connection/ADO Connection Create.vi"/>
-				<Item Name="ADO Connection Destroy.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/Connection/ADO Connection Destroy.vi"/>
-				<Item Name="ADO Connection Execute.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/Connection/ADO Connection Execute.vi"/>
-				<Item Name="ADO Connection Open.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/Connection/ADO Connection Open.vi"/>
-				<Item Name="ADO Recordset Destroy.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/Recordset/ADO Recordset Destroy.vi"/>
-				<Item Name="ADO Recordset GetString.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/Recordset/ADO Recordset GetString.vi"/>
-				<Item Name="SQL Execute.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/SQL Execute.vi"/>
-				<Item Name="SQL Fetch Data (GetString).vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/SQL Fetch Data (GetString).vi"/>
+				<Item Name="ADO Connection Close.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/Connection/ADO Connection Close.vi"/>
+				<Item Name="ADO Connection Create.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/Connection/ADO Connection Create.vi"/>
+				<Item Name="ADO Connection Destroy.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/Connection/ADO Connection Destroy.vi"/>
+				<Item Name="ADO Connection Execute.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/Connection/ADO Connection Execute.vi"/>
+				<Item Name="ADO Connection Open.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/Connection/ADO Connection Open.vi"/>
+				<Item Name="ADO Recordset Destroy.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/Recordset/ADO Recordset Destroy.vi"/>
+				<Item Name="ADO Recordset GetString.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/Recordset/ADO Recordset GetString.vi"/>
+				<Item Name="SQL Execute.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/SQL Execute.vi"/>
+				<Item Name="SQL Fetch Data (GetString).vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/SQL Fetch Data (GetString).vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
