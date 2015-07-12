@@ -61,6 +61,7 @@
 			<Item Name="声发射_事件数.vi" Type="VI" URL="../声发射_事件数.vi"/>
 			<Item Name="声发射频谱分析.vi" Type="VI" URL="../声发射频谱分析.vi"/>
 			<Item Name="声发射信号处理.vi" Type="VI" URL="../声发射信号处理.vi"/>
+			<Item Name="位移信号处理.vi" Type="VI" URL="../位移信号处理.vi"/>
 		</Item>
 		<Item Name="SQL" Type="Folder">
 			<Item Name="executesql.vi" Type="VI" URL="../executesql.vi"/>
@@ -70,6 +71,7 @@
 			<Item Name="SQL_monitor_data_settinngs_update.vi" Type="VI" URL="../SQL_monitor_data_settinngs_update.vi"/>
 			<Item Name="SQL_table_load_insert.vi" Type="VI" URL="../SQL_table_load_insert.vi"/>
 			<Item Name="SQL_Table_Test_Count.vi" Type="VI" URL="../SQL_Table_Test_Count.vi"/>
+			<Item Name="SQL_Table_Test_EndTime_update.vi" Type="VI" URL="../SQL_Table_Test_EndTime_update.vi"/>
 			<Item Name="SQL_Table_Test_Insert.vi" Type="VI" URL="../SQL_Table_Test_Insert.vi"/>
 			<Item Name="SQL_Table_Test_Select.vi" Type="VI" URL="../SQL_Table_Test_Select.vi"/>
 			<Item Name="SQL_table_test_selectbyid.vi" Type="VI" URL="../SQL_table_test_selectbyid.vi"/>
@@ -102,6 +104,8 @@
 			<Item Name="ReadDataFromTDMS.vi" Type="VI" URL="../ReadDataFromTDMS.vi"/>
 			<Item Name="ReadFromTDMS.vi" Type="VI" URL="../ReadFromTDMS.vi"/>
 			<Item Name="WriteToTDMS.vi" Type="VI" URL="../WriteToTDMS.vi"/>
+			<Item Name="查看测试时间.vi" Type="VI" URL="../查看测试时间.vi"/>
+			<Item Name="字符串转时间.vi" Type="VI" URL="../字符串转时间.vi"/>
 		</Item>
 		<Item Name="Terminal" Type="Folder">
 			<Item Name="Terminal-Alert-6133.vi" Type="VI" URL="../Terminal-Alert-6133.vi"/>
@@ -492,6 +496,7 @@
 				<Item Name="I128 Timestamp.ctl" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/I128 Timestamp.ctl"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="Modbus Master.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Modbus/master/Modbus Master.lvclass"/>
 				<Item Name="NI_AAL_SigProc.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AAL_SigProc.lvlib"/>
