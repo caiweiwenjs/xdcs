@@ -89,6 +89,7 @@
 			<Item Name="SQL_Template_selectidbyname.vi" Type="VI" URL="../SQL_Template_selectidbyname.vi"/>
 			<Item Name="SQL_test_template_data_deletebytempNo.vi" Type="VI" URL="../SQL_test_template_data_deletebytempNo.vi"/>
 			<Item Name="SQL_test_template_data_insert.vi" Type="VI" URL="../SQL_test_template_data_insert.vi"/>
+			<Item Name="SQL_test_template_find_testName.vi" Type="VI" URL="../SQL_test_template_find_testName.vi"/>
 			<Item Name="SQL_test_template_name_select.vi" Type="VI" URL="../SQL_test_template_name_select.vi"/>
 			<Item Name="SQL_test_Template_selectbyname.vi" Type="VI" URL="../SQL_test_Template_selectbyname.vi"/>
 			<Item Name="SQL_Test_Template_updatename.vi" Type="VI" URL="../SQL_Test_Template_updatename.vi"/>
@@ -118,12 +119,6 @@
 			<Item Name="Terminal-Alert-Init.vi" Type="VI" URL="../Terminal-Alert-Init.vi"/>
 			<Item Name="Terminal-Alert-PressureSystem.vi" Type="VI" URL="../Terminal-Alert-PressureSystem.vi"/>
 			<Item Name="Terminal-Alert-Trigger.vi" Type="VI" URL="../Terminal-Alert-Trigger.vi"/>
-			<Item Name="Terminal-Core-ErrorHandlingModule.vi" Type="VI" URL="../Terminal-Core-ErrorHandlingModule.vi"/>
-			<Item Name="Terminal-Core-InitializeNotifiers.vi" Type="VI" URL="../Terminal-Core-InitializeNotifiers.vi"/>
-			<Item Name="Terminal-Core-InitializeQueues.vi" Type="VI" URL="../Terminal-Core-InitializeQueues.vi"/>
-			<Item Name="Terminal-Core-ModbusModule.vi" Type="VI" URL="../Terminal-Core-ModbusModule.vi"/>
-			<Item Name="Terminal-Core-StorageModule.vi" Type="VI" URL="../Terminal-Core-StorageModule.vi"/>
-			<Item Name="Terminal-Core-UDPModule.vi" Type="VI" URL="../Terminal-Core-UDPModule.vi"/>
 			<Item Name="Terminal-DAQ-6133-Getter.vi" Type="VI" URL="../Terminal-DAQ-6133-Getter.vi"/>
 			<Item Name="Terminal-DAQ-6220-Getter.vi" Type="VI" URL="../Terminal-DAQ-6220-Getter.vi"/>
 			<Item Name="Terminal-DriverSystem-Getter.vi" Type="VI" URL="../Terminal-DriverSystem-Getter.vi"/>
@@ -139,16 +134,7 @@
 			<Item Name="Terminal-LoadSpectrum-Controller.vi" Type="VI" URL="../Terminal-LoadSpectrum-Controller.vi"/>
 			<Item Name="Terminal-LoadSpectrum-ExecuteRow.vi" Type="VI" URL="../Terminal-LoadSpectrum-ExecuteRow.vi"/>
 			<Item Name="Terminal-LoadSpectrum-InitQueue.vi" Type="VI" URL="../Terminal-LoadSpectrum-InitQueue.vi"/>
-			<Item Name="Terminal-Main-DeviceLubricateUnit.vi" Type="VI" URL="../Terminal-Main-DeviceLubricateUnit.vi"/>
-			<Item Name="Terminal-Main-DriverSystem.vi" Type="VI" URL="../Terminal-Main-DriverSystem.vi"/>
-			<Item Name="Terminal-Main-GearSystem.vi" Type="VI" URL="../Terminal-Main-GearSystem.vi"/>
-			<Item Name="Terminal-Main-LoadingUnit.vi" Type="VI" URL="../Terminal-Main-LoadingUnit.vi"/>
-			<Item Name="Terminal-Main-LubricateUnit.vi" Type="VI" URL="../Terminal-Main-LubricateUnit.vi"/>
 			<Item Name="Terminal-Main-SelfCheck.vi" Type="VI" URL="../Terminal-Main-SelfCheck.vi"/>
-			<Item Name="Terminal-Modbus-GetRead.vi" Type="VI" URL="../Terminal-Modbus-GetRead.vi"/>
-			<Item Name="Terminal-Modbus-ReadRegisters.vi" Type="VI" URL="../Terminal-Modbus-ReadRegisters.vi"/>
-			<Item Name="Terminal-Modbus-WriteRegister.vi" Type="VI" URL="../Terminal-Modbus-WriteRegister.vi"/>
-			<Item Name="Terminal-Modbus-WriteRegisters.vi" Type="VI" URL="../Terminal-Modbus-WriteRegisters.vi"/>
 			<Item Name="Terminal-ModbusEthernet-ReadRegisters.vi" Type="VI" URL="../Terminal-ModbusEthernet-ReadRegisters.vi"/>
 			<Item Name="Terminal-ModbusEthernet-ReadRegistersWithDateTime.vi" Type="VI" URL="../Terminal-ModbusEthernet-ReadRegistersWithDateTime.vi"/>
 			<Item Name="Terminal-ModbusEthernet-ReadWriteRegisters.vi" Type="VI" URL="../Terminal-ModbusEthernet-ReadWriteRegisters.vi"/>
@@ -167,7 +153,6 @@
 			<Item Name="Terminal-PressureSystemLubricateUnit-SwitchSetter.vi" Type="VI" URL="../Terminal-PressureSystemLubricateUnit-SwitchSetter.vi"/>
 			<Item Name="Terminal-Test-CheckAll.vi" Type="VI" URL="../Terminal-Test-CheckAll.vi"/>
 			<Item Name="Terminal-Test-Halt.vi" Type="VI" URL="../Terminal-Test-Halt.vi"/>
-			<Item Name="Terminal.vi" Type="VI" URL="../Terminal.vi"/>
 			<Item Name="Terminal_Drive_Syetem_Display.vi" Type="VI" URL="../Terminal_Drive_Syetem_Display.vi"/>
 			<Item Name="Terminal_Friction_Torque.vi" Type="VI" URL="../Terminal_Friction_Torque.vi"/>
 			<Item Name="Terminal_Gear_System_Dispaly.vi" Type="VI" URL="../Terminal_Gear_System_Dispaly.vi"/>
@@ -302,7 +287,6 @@
 			<Item Name="用户管理.ctl" Type="VI" URL="../用户管理.ctl"/>
 		</Item>
 		<Item Name="SharedVariables.lvlib" Type="Library" URL="../SharedVariables.lvlib"/>
-		<Item Name="SQL_test_template_find_testName.vi" Type="VI" URL="../SQL_test_template_find_testName.vi"/>
 		<Item Name="SV-Test.lvlib" Type="Library" URL="../SV-Test.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -538,24 +522,6 @@
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="MB Decode Data.vi" Type="VI" URL="../NI Modbus.llb/MB Decode Data.vi"/>
-			<Item Name="MB Ethernet Master Query Read Holding Registers (poly).vi" Type="VI" URL="../NI Modbus.llb/MB Ethernet Master Query Read Holding Registers (poly).vi"/>
-			<Item Name="MB Ethernet Master Query Write Multiple Coils (poly).vi" Type="VI" URL="../NI Modbus.llb/MB Ethernet Master Query Write Multiple Coils (poly).vi"/>
-			<Item Name="MB Ethernet Master Query Write Multiple Registers (poly).vi" Type="VI" URL="../NI Modbus.llb/MB Ethernet Master Query Write Multiple Registers (poly).vi"/>
-			<Item Name="MB Ethernet Master Query.vi" Type="VI" URL="../NI Modbus.llb/MB Ethernet Master Query.vi"/>
-			<Item Name="MB Ethernet Receive.vi" Type="VI" URL="../NI Modbus.llb/MB Ethernet Receive.vi"/>
-			<Item Name="MB Ethernet String to Modbus Data Unit.vi" Type="VI" URL="../NI Modbus.llb/MB Ethernet String to Modbus Data Unit.vi"/>
-			<Item Name="MB Ethernet Transmit.vi" Type="VI" URL="../NI Modbus.llb/MB Ethernet Transmit.vi"/>
-			<Item Name="MB LRC-8.vi" Type="VI" URL="../NI Modbus.llb/MB LRC-8.vi"/>
-			<Item Name="MB Modbus Command to Data Unit.vi" Type="VI" URL="../NI Modbus.llb/MB Modbus Command to Data Unit.vi"/>
-			<Item Name="MB Modbus Command.ctl" Type="VI" URL="../NI Modbus.llb/MB Modbus Command.ctl"/>
-			<Item Name="MB Modbus Data Unit.ctl" Type="VI" URL="../NI Modbus.llb/MB Modbus Data Unit.ctl"/>
-			<Item Name="MB Serial Master Query Write Single Register (poly).vi" Type="VI" URL="../NI Modbus.llb/MB Serial Master Query Write Single Register (poly).vi"/>
-			<Item Name="MB Serial Master Query.vi" Type="VI" URL="../NI Modbus.llb/MB Serial Master Query.vi"/>
-			<Item Name="MB Serial Modbus Data Unit to String.vi" Type="VI" URL="../NI Modbus.llb/MB Serial Modbus Data Unit to String.vi"/>
-			<Item Name="MB Serial Receive.vi" Type="VI" URL="../NI Modbus.llb/MB Serial Receive.vi"/>
-			<Item Name="MB Serial String to Modbus Data Unit.vi" Type="VI" URL="../NI Modbus.llb/MB Serial String to Modbus Data Unit.vi"/>
-			<Item Name="MB Serial Transmit.vi" Type="VI" URL="../NI Modbus.llb/MB Serial Transmit.vi"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
