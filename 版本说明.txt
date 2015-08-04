@@ -7,5 +7,4 @@ v2.7:
 1.添加了配置表文件config.ini，用来保存IP、端口等信息；
 2.IPC和Terminal都添加了初始化模块(IPC-Initialize.vi和Terminal-Initialize.vi)，只有初始化模块执行成功才能继续启动程序；
 3.修正6133采集会出错的问题；
-4.添加了欢迎界面UI-Main.vi，主要是用来执行初始化模块Terminal-Initialize.vi;
-4.修正了UI_Chose_Function.vi和UI-Main.vi会因为vi异常关闭而弹错的问题。
+4.添加了欢迎界面UI-Main.vi，主要是用来执行初始化模块Terminal-Initialize.vi。

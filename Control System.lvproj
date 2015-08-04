@@ -117,6 +117,7 @@
 			<Item Name="字符串转时间.vi" Type="VI" URL="../字符串转时间.vi"/>
 		</Item>
 		<Item Name="Terminal" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Terminal-Alert-6133.vi" Type="VI" URL="../Terminal-Alert-6133.vi"/>
 			<Item Name="Terminal-Alert-6220.vi" Type="VI" URL="../Terminal-Alert-6220.vi"/>
 			<Item Name="Terminal-Alert-DriverSystem.vi" Type="VI" URL="../Terminal-Alert-DriverSystem.vi"/>
@@ -156,9 +157,9 @@
 			<Item Name="Terminal-PressureSystemLoadingUnit-SwitchSetter.vi" Type="VI" URL="../Terminal-PressureSystemLoadingUnit-SwitchSetter.vi"/>
 			<Item Name="Terminal-PressureSystemLubricateUnit-ParametersSetter.vi" Type="VI" URL="../Terminal-PressureSystemLubricateUnit-ParametersSetter.vi"/>
 			<Item Name="Terminal-PressureSystemLubricateUnit-Setter.vi" Type="VI" URL="../Terminal-PressureSystemLubricateUnit-Setter.vi"/>
-			<Item Name="Terminal-PressureSystemLubricateUnit-SwitchSetter.vi" Type="VI" URL="../Terminal-PressureSystemLubricateUnit-SwitchSetter.vi"/>
 			<Item Name="Terminal-SelfCheck-DAQCheck.vi" Type="VI" URL="../Terminal-SelfCheck-DAQCheck.vi"/>
 			<Item Name="Terminal-Test-Boot.vi" Type="VI" URL="../Terminal-Test-Boot.vi"/>
+			<Item Name="Terminal-PressureSystemLubricateUnit-SwitchSetter.vi" Type="VI" URL="../Terminal-PressureSystemLubricateUnit-SwitchSetter.vi"/>
 			<Item Name="Terminal-Test-CheckAll.vi" Type="VI" URL="../Terminal-Test-CheckAll.vi"/>
 			<Item Name="Terminal-Test-Halt.vi" Type="VI" URL="../Terminal-Test-Halt.vi"/>
 			<Item Name="Terminal_Drive_Syetem_Display.vi" Type="VI" URL="../Terminal_Drive_Syetem_Display.vi"/>
