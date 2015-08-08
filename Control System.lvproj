@@ -24,8 +24,15 @@
 			<Item Name="Common-U16ArrayToDateTime.vi" Type="VI" URL="../Common-U16ArrayToDateTime.vi"/>
 			<Item Name="Core-CatchAndClearError.vi" Type="VI" URL="../Core-CatchAndClearError.vi"/>
 		</Item>
+		<Item Name="Configuration" Type="Folder">
+			<Item Name="Configuration-GetAll.vi" Type="VI" URL="../Configuration-GetAll.vi"/>
+			<Item Name="Configuration-Global.vi" Type="VI" URL="../Configuration-Global.vi"/>
+			<Item Name="Configuration-ReadInt.vi" Type="VI" URL="../Configuration-ReadInt.vi"/>
+			<Item Name="Configuration-ReadString.vi" Type="VI" URL="../Configuration-ReadString.vi"/>
+		</Item>
 		<Item Name="IPC" Type="Folder">
 			<Item Name="6133.vi" Type="VI" URL="../6133.vi"/>
+			<Item Name="6133_N采样.vi" Type="VI" URL="../6133_N采样.vi"/>
 			<Item Name="6220.vi" Type="VI" URL="../6220.vi"/>
 			<Item Name="IPC-Core-DAQModule.vi" Type="VI" URL="../IPC-Core-DAQModule.vi"/>
 			<Item Name="IPC-Core-ErrorHandlingModule.vi" Type="VI" URL="../IPC-Core-ErrorHandlingModule.vi"/>
@@ -33,6 +40,7 @@
 			<Item Name="IPC-Core-MainModule.vi" Type="VI" URL="../IPC-Core-MainModule.vi"/>
 			<Item Name="IPC-Core-ModbusModule.vi" Type="VI" URL="../IPC-Core-ModbusModule.vi"/>
 			<Item Name="IPC-Core-UDPModule.vi" Type="VI" URL="../IPC-Core-UDPModule.vi"/>
+			<Item Name="IPC-Initialize.vi" Type="VI" URL="../IPC-Initialize.vi"/>
 			<Item Name="IPC-Modbus-Transfer.vi" Type="VI" URL="../IPC-Modbus-Transfer.vi"/>
 			<Item Name="IPC-ModbusSerial-ReadRegisters.vi" Type="VI" URL="../IPC-ModbusSerial-ReadRegisters.vi"/>
 			<Item Name="IPC-ModbusSerial-WriteMulRegisters.vi" Type="VI" URL="../IPC-ModbusSerial-WriteMulRegisters.vi"/>
@@ -132,6 +140,7 @@
 			<Item Name="Terminal-Global-ReferenceValues.vi" Type="VI" URL="../Terminal-Global-ReferenceValues.vi"/>
 			<Item Name="Terminal-Global-SetValues.vi" Type="VI" URL="../Terminal-Global-SetValues.vi"/>
 			<Item Name="Terminal-Global-StatusValues.vi" Type="VI" URL="../Terminal-Global-StatusValues.vi"/>
+			<Item Name="Terminal-Initialize.vi" Type="VI" URL="../Terminal-Initialize.vi"/>
 			<Item Name="Terminal-LoadSpectrum-Controller.vi" Type="VI" URL="../Terminal-LoadSpectrum-Controller.vi"/>
 			<Item Name="Terminal-LoadSpectrum-ExecuteRow.vi" Type="VI" URL="../Terminal-LoadSpectrum-ExecuteRow.vi"/>
 			<Item Name="Terminal-LoadSpectrum-InitQueue.vi" Type="VI" URL="../Terminal-LoadSpectrum-InitQueue.vi"/>
@@ -190,6 +199,7 @@
 		</Item>
 		<Item Name="UI" Type="Folder">
 			<Item Name="Export_Excel.vi" Type="VI" URL="../Export_Excel.vi"/>
+			<Item Name="UI-Main.vi" Type="VI" URL="../UI-Main.vi"/>
 			<Item Name="UI_Chose_Function.vi" Type="VI" URL="../UI_Chose_Function.vi"/>
 			<Item Name="UI_Control_System.rtm" Type="Document" URL="../UI_Control_System.rtm"/>
 			<Item Name="UI_Control_System.vi" Type="VI" URL="../UI_Control_System.vi"/>
@@ -294,26 +304,29 @@
 		<Item Name="Terminal_Global_Pressure_system.vi" Type="VI" URL="../Terminal_Global_Pressure_system.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="ADO Connection Close.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/Connection/ADO Connection Close.vi"/>
-				<Item Name="ADO Connection Create.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/Connection/ADO Connection Create.vi"/>
-				<Item Name="ADO Connection Destroy.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/Connection/ADO Connection Destroy.vi"/>
-				<Item Name="ADO Connection Execute.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/Connection/ADO Connection Execute.vi"/>
-				<Item Name="ADO Connection Open.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/Connection/ADO Connection Open.vi"/>
-				<Item Name="ADO Recordset Destroy.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/Recordset/ADO Recordset Destroy.vi"/>
-				<Item Name="ADO Recordset GetString.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/Recordset/ADO Recordset GetString.vi"/>
-				<Item Name="SQL Execute.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/SQL Execute.vi"/>
-				<Item Name="SQL Fetch Data (GetString).vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/SQL Fetch Data (GetString).vi"/>
+				<Item Name="ADO Connection Close.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/Connection/ADO Connection Close.vi"/>
+				<Item Name="ADO Connection Create.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/Connection/ADO Connection Create.vi"/>
+				<Item Name="ADO Connection Destroy.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/Connection/ADO Connection Destroy.vi"/>
+				<Item Name="ADO Connection Execute.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/Connection/ADO Connection Execute.vi"/>
+				<Item Name="ADO Connection Open.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/Connection/ADO Connection Open.vi"/>
+				<Item Name="ADO Recordset Destroy.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/Recordset/ADO Recordset Destroy.vi"/>
+				<Item Name="ADO Recordset GetString.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/Recordset/ADO Recordset GetString.vi"/>
+				<Item Name="SQL Execute.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/SQL Execute.vi"/>
+				<Item Name="SQL Fetch Data (GetString).vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/SQL Fetch Data (GetString).vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check for Equality.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Check for Equality.vi"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
 				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
+				<Item Name="DAQmx Control Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Control Task.vi"/>
 				<Item Name="DAQmx Create AI Channel (sub).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create AI Channel (sub).vi"/>
 				<Item Name="DAQmx Create AI Channel TEDS(sub).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create AI Channel TEDS(sub).vi"/>
 				<Item Name="DAQmx Create AO Channel (sub).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create AO Channel (sub).vi"/>
@@ -493,8 +506,10 @@
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_Database_API.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/database/NI_Database_API.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="NI_MAPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MAPro.lvlib"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
