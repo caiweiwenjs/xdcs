@@ -65,6 +65,7 @@
 		</Item>
 		<Item Name="SQL" Type="Folder">
 			<Item Name="executesql.vi" Type="VI" URL="../executesql.vi"/>
+			<Item Name="SQL_Alarm_condition.vi" Type="VI" URL="../SQL_Alarm_condition.vi"/>
 			<Item Name="SQL_configuration_select_table.vi" Type="VI" URL="../SQL_configuration_select_table.vi"/>
 			<Item Name="SQL_configuration_update.vi" Type="VI" URL="../SQL_configuration_update.vi"/>
 			<Item Name="SQL_monitor_data_settinngs_select.vi" Type="VI" URL="../SQL_monitor_data_settinngs_select.vi"/>
@@ -168,6 +169,7 @@
 			<Item Name="Terminal_Work_Condition.vi" Type="VI" URL="../Terminal_Work_Condition.vi"/>
 			<Item Name="Terminla_GearSystem_Work_Condition.vi" Type="VI" URL="../Terminla_GearSystem_Work_Condition.vi"/>
 			<Item Name="Work_Condition.vi" Type="VI" URL="../Work_Condition.vi"/>
+			<Item Name="Terminal_Alarm_Condition.vi" Type="VI" URL="../Terminal_Alarm_Condition.vi"/>
 		</Item>
 		<Item Name="Test" Type="Folder">
 			<Item Name="TCP client test.vi" Type="VI" URL="../TCP client test.vi"/>
@@ -288,6 +290,8 @@
 		</Item>
 		<Item Name="SharedVariables.lvlib" Type="Library" URL="../SharedVariables.lvlib"/>
 		<Item Name="SV-Test.lvlib" Type="Library" URL="../SV-Test.lvlib"/>
+		<Item Name="Terminal_Global_Alarm_condition.vi" Type="VI" URL="../Terminal_Global_Alarm_condition.vi"/>
+		<Item Name="Terminal_Global_Pressure_system.vi" Type="VI" URL="../Terminal_Global_Pressure_system.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="ADO Connection Close.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/Connection/ADO Connection Close.vi"/>

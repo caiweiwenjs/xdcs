@@ -189,7 +189,7 @@ insert into table_monitor_data_settings values('陪试轴承单元', '低压供油温度',10
 insert into table_monitor_data_settings values('齿轮子系统', '润滑油流量Q',1000,0,-1,0);
 insert into table_monitor_data_settings values('齿轮子系统', '油箱润滑油液位h',1000,0,-1,0);
 insert into table_monitor_data_settings values('齿轮子系统', '油箱温度T1',1000,0,-1,0);
-insert into table_monitor_data_settings values('齿轮子系统', '冷却装置工作状态S',NULL,NULL,NULL,NULL);
+--insert into table_monitor_data_settings values('齿轮子系统', '冷却装置工作状态S',NULL,NULL,NULL,NULL);
 insert into table_monitor_data_settings values('齿轮子系统', '供油压力P1',1000,0,-1,0);
 insert into table_monitor_data_settings values('齿轮子系统', '过滤器压差P2',1000,0,-1,0);
 insert into table_monitor_data_settings values('齿轮子系统', '油箱液位H',1000,0,-1,0);
@@ -234,7 +234,7 @@ insert into table_monitor_data_settings values('动力子系统', '变频器电气参数异常
 insert into table_monitor_data_settings values('动力子系统', '电机过载报警', -1,0,1,2);
 insert into table_monitor_data_settings values('动力子系统', '电机转速误差过大报警',-1,0,1,2);
 insert into table_monitor_data_settings values('齿轮子系统', '加热装置异常', -1,0,1,3);
-insert into table_monitor_data_settings values('齿轮子系统', '冷却装置异常', -1,0,1,3);
+--insert into table_monitor_data_settings values('齿轮子系统', '冷却装置异常', -1,0,1,3);
 insert into table_monitor_data_settings values('齿轮子系统', '油箱液位过高', -1,0,1,2);
 insert into table_monitor_data_settings values('齿轮子系统', '油箱液位过低', -1,0,1,2);
 insert into table_monitor_data_settings values('齿轮子系统', '供油油温过高', -1,0,1,2);
@@ -246,3 +246,9 @@ insert into table_monitor_data_settings values('齿轮子系统', '2号油泵故障', -1,0
 insert into table_monitor_data_settings values('齿轮子系统', '供油压力过低', -1,0,1,2);
 insert into table_monitor_data_settings values('齿轮子系统', '供油流量过低',-1,0,1,2);
 insert into table_monitor_data_settings values('齿轮子系统', '轴承温度异常报警',-1,0,1,2);
+
+
+
+select unit_name,monitor_data,reference_value,alarm_condition_accuracy
+   from table_monitor_data_settings
+   where  monitor_data_id <=32 and alarm_condition_accuracy !=-1
