@@ -21,6 +21,7 @@
 			<Item Name="Common-ArrayRandomPick.vi" Type="VI" URL="../Common-ArrayRandomPick.vi"/>
 			<Item Name="Common-DateTimeToU16Array.vi" Type="VI" URL="../Common-DateTimeToU16Array.vi"/>
 			<Item Name="Common-IsBetween.vi" Type="VI" URL="../Common-IsBetween.vi"/>
+			<Item Name="Common-SecondToCountDownString.vi" Type="VI" URL="../Common-SecondToCountDownString.vi"/>
 			<Item Name="Common-U16ArrayToDateTime.vi" Type="VI" URL="../Common-U16ArrayToDateTime.vi"/>
 			<Item Name="Core-CatchAndClearError.vi" Type="VI" URL="../Core-CatchAndClearError.vi"/>
 		</Item>
@@ -179,6 +180,9 @@
 			<Item Name="Terminla_GearSystem_Work_Condition.vi" Type="VI" URL="../Terminla_GearSystem_Work_Condition.vi"/>
 			<Item Name="Work_Condition.vi" Type="VI" URL="../Work_Condition.vi"/>
 			<Item Name="Terminal_Alarm_Condition.vi" Type="VI" URL="../Terminal_Alarm_Condition.vi"/>
+			<Item Name="Terminal_Global_Alarm_condition.vi" Type="VI" URL="../Terminal_Global_Alarm_condition.vi"/>
+			<Item Name="Terminal_Global_Pressure_system.vi" Type="VI" URL="../Terminal_Global_Pressure_system.vi"/>
+			<Item Name="Terminal-GearSystem-Getter20150809.vi" Type="VI" URL="../Terminal-GearSystem-Getter20150809.vi"/>
 		</Item>
 		<Item Name="Test" Type="Folder">
 			<Item Name="TCP client test.vi" Type="VI" URL="../TCP client test.vi"/>
@@ -300,15 +304,17 @@
 		</Item>
 		<Item Name="SharedVariables.lvlib" Type="Library" URL="../SharedVariables.lvlib"/>
 		<Item Name="SV-Test.lvlib" Type="Library" URL="../SV-Test.lvlib"/>
-		<Item Name="Terminal_Global_Alarm_condition.vi" Type="VI" URL="../Terminal_Global_Alarm_condition.vi"/>
-		<Item Name="Terminal_Global_Pressure_system.vi" Type="VI" URL="../Terminal_Global_Pressure_system.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="ADO Connection Close.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/Connection/ADO Connection Close.vi"/>
 				<Item Name="ADO Connection Create.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/Connection/ADO Connection Create.vi"/>
 				<Item Name="ADO Connection Destroy.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/Connection/ADO Connection Destroy.vi"/>
+				<Item Name="ADO Connection Execute.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/Connection/ADO Connection Execute.vi"/>
 				<Item Name="ADO Connection Open.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/Connection/ADO Connection Open.vi"/>
+				<Item Name="ADO Recordset Destroy.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/Recordset/ADO Recordset Destroy.vi"/>
+				<Item Name="ADO Recordset GetString.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/Recordset/ADO Recordset GetString.vi"/>
 				<Item Name="SQL Execute.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/SQL Execute.vi"/>
+				<Item Name="SQL Fetch Data (GetString).vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/SQL Fetch Data (GetString).vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>

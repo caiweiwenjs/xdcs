@@ -8,3 +8,6 @@ v2.7:
 2.IPC和Terminal都添加了初始化模块(IPC-Initialize.vi和Terminal-Initialize.vi)，只有初始化模块执行成功才能继续启动程序；
 3.修正6133采集会出错的问题；
 4.添加了欢迎界面UI-Main.vi，主要是用来执行初始化模块Terminal-Initialize.vi。
+v2.8:
+1.执行载荷谱添加了倒计时；
+2.修改了齿轮子系统；
