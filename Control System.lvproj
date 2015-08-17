@@ -221,6 +221,8 @@
 			<Item Name="Terminal_Global_Alarm_condition.vi" Type="VI" URL="../Terminal_Global_Alarm_condition.vi"/>
 			<Item Name="Terminal_Global_Pressure_system.vi" Type="VI" URL="../Terminal_Global_Pressure_system.vi"/>
 			<Item Name="Terminal-Utility-GetIPCDateTime.vi" Type="VI" URL="../Terminal-Utility-GetIPCDateTime.vi"/>
+			<Item Name="Terminal_Drive_System_SavetoDB.vi" Type="VI" URL="../Terminal_Drive_System_SavetoDB.vi"/>
+			<Item Name="Terminal_Pressure_System_SaveToDB.vi" Type="VI" URL="../Terminal_Pressure_System_SaveToDB.vi"/>
 		</Item>
 		<Item Name="Test" Type="Folder">
 			<Item Name="TCP client test.vi" Type="VI" URL="../TCP client test.vi"/>
@@ -246,23 +248,20 @@
 			<Item Name="UI_Chose_Function.vi" Type="VI" URL="../UI_Chose_Function.vi"/>
 			<Item Name="UI_Control_System.rtm" Type="Document" URL="../UI_Control_System.rtm"/>
 			<Item Name="UI_Control_System.vi" Type="VI" URL="../UI_Control_System.vi"/>
-			<Item Name="UI_Device_Lubricate_Unit.vi" Type="VI" URL="../UI_Device_Lubricate_Unit.vi"/>
 			<Item Name="UI_Device_Lubricate_Unit_Test.vi" Type="VI" URL="../UI_Device_Lubricate_Unit_Test.vi"/>
-			<Item Name="UI_Drive_Unit.vi" Type="VI" URL="../UI_Drive_Unit.vi"/>
 			<Item Name="UI_Frequency_Settings.vi" Type="VI" URL="../UI_Frequency_Settings.vi"/>
 			<Item Name="UI_Gear_Unit_Test.vi" Type="VI" URL="../UI_Gear_Unit_Test.vi"/>
 			<Item Name="UI_GUI.vi" Type="VI" URL="../UI_GUI.vi"/>
 			<Item Name="UI_History.vi" Type="VI" URL="../UI_History.vi"/>
 			<Item Name="UI_Load_Spectrum_Modify.vi" Type="VI" URL="../UI_Load_Spectrum_Modify.vi"/>
-			<Item Name="UI_Loading_Unit.vi" Type="VI" URL="../UI_Loading_Unit.vi"/>
 			<Item Name="UI_Loading_Unit_Test.vi" Type="VI" URL="../UI_Loading_Unit_Test.vi"/>
 			<Item Name="UI_Log_In.vi" Type="VI" URL="../UI_Log_In.vi"/>
-			<Item Name="UI_Lubricate_Unit.vi" Type="VI" URL="../UI_Lubricate_Unit.vi"/>
 			<Item Name="UI_Lubricate_Unit_Test.vi" Type="VI" URL="../UI_Lubricate_Unit_Test.vi"/>
 			<Item Name="UI_Monitor_Data_Setting.vi" Type="VI" URL="../UI_Monitor_Data_Setting.vi"/>
 			<Item Name="UI_Template_Add.vi" Type="VI" URL="../UI_Template_Add.vi"/>
 			<Item Name="UI_Template_modify.vi" Type="VI" URL="../UI_Template_modify.vi"/>
 			<Item Name="UI_Test_Template_Manage.vi" Type="VI" URL="../UI_Test_Template_Manage.vi"/>
+			<Item Name="UI_Unit_Start.vi" Type="VI" URL="../UI_Unit_Start.vi"/>
 			<Item Name="UI_Users_Manage.vi" Type="VI" URL="../UI_Users_Manage.vi"/>
 		</Item>
 		<Item Name="换算公式" Type="Folder">
@@ -345,15 +344,15 @@
 		<Item Name="SV-Test.lvlib" Type="Library" URL="../SV-Test.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="ADO Connection Close.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/Connection/ADO Connection Close.vi"/>
-				<Item Name="ADO Connection Create.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/Connection/ADO Connection Create.vi"/>
-				<Item Name="ADO Connection Destroy.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/Connection/ADO Connection Destroy.vi"/>
-				<Item Name="ADO Connection Execute.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/Connection/ADO Connection Execute.vi"/>
-				<Item Name="ADO Connection Open.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/Connection/ADO Connection Open.vi"/>
-				<Item Name="ADO Recordset Destroy.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/Recordset/ADO Recordset Destroy.vi"/>
-				<Item Name="ADO Recordset GetString.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/Recordset/ADO Recordset GetString.vi"/>
-				<Item Name="SQL Execute.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/SQL Execute.vi"/>
-				<Item Name="SQL Fetch Data (GetString).vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/SQL Fetch Data (GetString).vi"/>
+				<Item Name="ADO Connection Close.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/Connection/ADO Connection Close.vi"/>
+				<Item Name="ADO Connection Create.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/Connection/ADO Connection Create.vi"/>
+				<Item Name="ADO Connection Destroy.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/Connection/ADO Connection Destroy.vi"/>
+				<Item Name="ADO Connection Execute.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/Connection/ADO Connection Execute.vi"/>
+				<Item Name="ADO Connection Open.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/Connection/ADO Connection Open.vi"/>
+				<Item Name="ADO Recordset Destroy.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/Recordset/ADO Recordset Destroy.vi"/>
+				<Item Name="ADO Recordset GetString.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/Recordset/ADO Recordset GetString.vi"/>
+				<Item Name="SQL Execute.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/SQL Execute.vi"/>
+				<Item Name="SQL Fetch Data (GetString).vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/SQL Fetch Data (GetString).vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
