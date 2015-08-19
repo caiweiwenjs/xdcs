@@ -226,12 +226,9 @@
 			<Item Name="Terminal-Test-Boot.vi" Type="VI" URL="../Terminal-Test-Boot.vi"/>
 			<Item Name="Terminal-Test-CheckAll.vi" Type="VI" URL="../Terminal-Test-CheckAll.vi"/>
 			<Item Name="Terminal-Test-Halt.vi" Type="VI" URL="../Terminal-Test-Halt.vi"/>
-			<Item Name="Terminal_Drive_Syetem_Display.vi" Type="VI" URL="../Terminal_Drive_Syetem_Display.vi"/>
 			<Item Name="Terminal_Friction_Torque.vi" Type="VI" URL="../Terminal_Friction_Torque.vi"/>
-			<Item Name="Terminal_Gear_System_Dispaly.vi" Type="VI" URL="../Terminal_Gear_System_Dispaly.vi"/>
 			<Item Name="Terminal_Log_In_Judge.vi" Type="VI" URL="../Terminal_Log_In_Judge.vi"/>
 			<Item Name="Terminal_PressureSyetem_Work_Condition.vi" Type="VI" URL="../Terminal_PressureSyetem_Work_Condition.vi"/>
-			<Item Name="Terminal_PressureSystem_Display.vi" Type="VI" URL="../Terminal_PressureSystem_Display.vi"/>
 			<Item Name="Terminal_Random_Select.vi" Type="VI" URL="../Terminal_Random_Select.vi"/>
 			<Item Name="Terminal_Voice_Signal_Processing.vi" Type="VI" URL="../Terminal_Voice_Signal_Processing.vi"/>
 			<Item Name="Terminal_Work_Condition.vi" Type="VI" URL="../Terminal_Work_Condition.vi"/>
