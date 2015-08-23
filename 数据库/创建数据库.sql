@@ -49,8 +49,6 @@ speed float,				--转速
 axialLoad float,			--轴向载荷
 radialLoad float,			--径向载荷
 oilTemperature float,		--供油油温
-oilPressure float,			--供油压力
-oilFlow float,				--供油流量
 duration float,				--持续时间
 res varchar(32),            --执行结果
 );
@@ -95,8 +93,6 @@ speed float,				--转速
 axialLoad float,			--轴向载荷
 radialLoad float,			--径向载荷
 oilTemperature float,		--供油油温
-oilPressure float,			--供油压力
-oilFlow float,				--供油流量
 duration float,				--持续时间
 ); 
 
@@ -145,12 +141,12 @@ insert into table_test_template values('模板一','用户1','2015/06/06');
 insert into table_test_template values('模板二','用户2','2015/06/06');
 insert into table_test_template values('模板三','管理员1','2015/06/06');
 
-insert into table_test_template_data values(1,100,200,300,400,500,600,7);
-insert into table_test_template_data values(1,200,300,400,500,600,700,8);
-insert into table_test_template_data values(2,300,200,300,400,500,600,7);
-insert into table_test_template_data values(2,400,300,400,500,600,700,8);
-insert into table_test_template_data values(3,500,200,300,400,500,600,7);
-insert into table_test_template_data values(3,600,300,400,500,600,700,8);
+insert into table_test_template_data values(1,100,200,300,400,70);
+insert into table_test_template_data values(1,200,300,400,500,8);
+insert into table_test_template_data values(2,300,200,300,400,7);
+insert into table_test_template_data values(2,400,300,400,500,80);
+insert into table_test_template_data values(3,500,200,300,400,79);
+insert into table_test_template_data values(3,600,300,400,500,8);
 
 insert into table_users values('管理员1','123',1);
 insert into table_users values('管理员2','234',1);
@@ -248,7 +244,3 @@ insert into table_monitor_data_settings values('齿轮子系统', '供油流量过低',-1,0
 insert into table_monitor_data_settings values('齿轮子系统', '轴承温度异常报警',-1,0,1,2);
 
 
-
-select unit_name,monitor_data,reference_value,alarm_condition_accuracy
-   from table_monitor_data_settings
-   where  monitor_data_id <=32 and alarm_condition_accuracy !=-1

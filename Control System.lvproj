@@ -20,7 +20,9 @@
 			<Item Name="Common-AlertHandler.vi" Type="VI" URL="../Common-AlertHandler.vi"/>
 			<Item Name="Common-ArrayRandomPick.vi" Type="VI" URL="../Common-ArrayRandomPick.vi"/>
 			<Item Name="Common-DateTimeToU16Array.vi" Type="VI" URL="../Common-DateTimeToU16Array.vi"/>
+			<Item Name="Common-InitListBox.vi" Type="VI" URL="../Common-InitListBox.vi"/>
 			<Item Name="Common-IsBetween.vi" Type="VI" URL="../Common-IsBetween.vi"/>
+			<Item Name="Common-ModifyBoolCaptionTextAndColor.vi" Type="VI" URL="../Common-ModifyBoolCaptionTextAndColor.vi"/>
 			<Item Name="Common-SecondToCountDownString.vi" Type="VI" URL="../Common-SecondToCountDownString.vi"/>
 			<Item Name="Common-U16ArrayToDateTime.vi" Type="VI" URL="../Common-U16ArrayToDateTime.vi"/>
 			<Item Name="Core-CatchAndClearError.vi" Type="VI" URL="../Core-CatchAndClearError.vi"/>
@@ -160,10 +162,6 @@
 				<Item Name="Terminal-Alert-PressureSystem.vi" Type="VI" URL="../Terminal-Alert-PressureSystem.vi"/>
 				<Item Name="Terminal-Alert-Trigger.vi" Type="VI" URL="../Terminal-Alert-Trigger.vi"/>
 			</Item>
-			<Item Name="DAQ" Type="Folder">
-				<Item Name="Terminal-DAQ-6133-Getter.vi" Type="VI" URL="../Terminal-DAQ-6133-Getter.vi"/>
-				<Item Name="Terminal-DAQ-6220-Getter.vi" Type="VI" URL="../Terminal-DAQ-6220-Getter.vi"/>
-			</Item>
 			<Item Name="Modbus" Type="Folder">
 				<Item Name="Terminal-ModbusEthernet-ReadCoils.vi" Type="VI" URL="../Terminal-ModbusEthernet-ReadCoils.vi"/>
 				<Item Name="Terminal-ModbusEthernet-ReadDiscreteCoils.vi" Type="VI" URL="../Terminal-ModbusEthernet-ReadDiscreteCoils.vi"/>
@@ -176,14 +174,21 @@
 				<Item Name="Terminal-ModbusEthernet-WriteMulCoils.vi" Type="VI" URL="../Terminal-ModbusEthernet-WriteMulCoils.vi"/>
 				<Item Name="Terminal-ModbusEthernet-WriteCoil.vi" Type="VI" URL="../Terminal-ModbusEthernet-WriteCoil.vi"/>
 			</Item>
+			<Item Name="DAQ" Type="Folder">
+				<Item Name="Terminal-DAQ-6133-Getter.vi" Type="VI" URL="../Terminal-DAQ-6133-Getter.vi"/>
+				<Item Name="Terminal-DAQ-6220-Getter.vi" Type="VI" URL="../Terminal-DAQ-6220-Getter.vi"/>
+				<Item Name="Terminal-DAQ-SelfCheck.vi" Type="VI" URL="../Terminal-DAQ-SelfCheck.vi"/>
+			</Item>
 			<Item Name="Driver System" Type="Folder">
 				<Item Name="Terminal-DriverSystem-Getter20150815.vi" Type="VI" URL="../Terminal-DriverSystem-Getter20150815.vi"/>
 				<Item Name="Terminal-DriverSystem-ParametersSetter.vi" Type="VI" URL="../Terminal-DriverSystem-ParametersSetter.vi"/>
 				<Item Name="Terminal-DriverSystem-SwitchSetter.vi" Type="VI" URL="../Terminal-DriverSystem-SwitchSetter.vi"/>
+				<Item Name="Terminal-DriverSystem-SelfCheck.vi" Type="VI" URL="../Terminal-DriverSystem-SelfCheck.vi"/>
 			</Item>
 			<Item Name="Gear System" Type="Folder">
 				<Item Name="Terminal-GearSystem-Getter20150815.vi" Type="VI" URL="../Terminal-GearSystem-Getter20150815.vi"/>
 				<Item Name="Terminal-GearSystem-SwitchSetter.vi" Type="VI" URL="../Terminal-GearSystem-SwitchSetter.vi"/>
+				<Item Name="Terminal-GearSystem-SelfCheck.vi" Type="VI" URL="../Terminal-GearSystem-SelfCheck.vi"/>
 			</Item>
 			<Item Name="Pressure System" Type="Folder">
 				<Item Name="Loading Unit" Type="Folder">
@@ -202,9 +207,7 @@
 					<Item Name="Terminal-PressureSystem-DeviceLubricateUnit-SwitchSetter.vi" Type="VI" URL="../Terminal-PressureSystem-DeviceLubricateUnit-SwitchSetter.vi"/>
 				</Item>
 				<Item Name="Terminal-PressureSystem-HeaterAlarm-Getter.vi" Type="VI" URL="../Terminal-PressureSystem-HeaterAlarm-Getter.vi"/>
-			</Item>
-			<Item Name="Temp" Type="Folder">
-				<Item Name="Terminal-PressureSystem-Getter20150815.vi" Type="VI" URL="../Terminal-PressureSystem-Getter20150815.vi"/>
+				<Item Name="Terminal-PressureSystem-SelfCheck.vi" Type="VI" URL="../Terminal-PressureSystem-SelfCheck.vi"/>
 			</Item>
 			<Item Name="Global Variable" Type="Folder">
 				<Item Name="Terminal-Global-ReferenceValues.vi" Type="VI" URL="../Terminal-Global-ReferenceValues.vi"/>
@@ -221,17 +224,11 @@
 			<Item Name="Terminal-LoadSpectrum-Controller.vi" Type="VI" URL="../Terminal-LoadSpectrum-Controller.vi"/>
 			<Item Name="Terminal-LoadSpectrum-ExecuteRow.vi" Type="VI" URL="../Terminal-LoadSpectrum-ExecuteRow.vi"/>
 			<Item Name="Terminal-LoadSpectrum-InitQueue.vi" Type="VI" URL="../Terminal-LoadSpectrum-InitQueue.vi"/>
-			<Item Name="Terminal-Main-SelfCheck.vi" Type="VI" URL="../Terminal-Main-SelfCheck.vi"/>
-			<Item Name="Terminal-SelfCheck-DAQCheck.vi" Type="VI" URL="../Terminal-SelfCheck-DAQCheck.vi"/>
 			<Item Name="Terminal-Test-Boot.vi" Type="VI" URL="../Terminal-Test-Boot.vi"/>
-			<Item Name="Terminal-Test-CheckAll.vi" Type="VI" URL="../Terminal-Test-CheckAll.vi"/>
 			<Item Name="Terminal-Test-Halt.vi" Type="VI" URL="../Terminal-Test-Halt.vi"/>
-			<Item Name="Terminal_Drive_Syetem_Display.vi" Type="VI" URL="../Terminal_Drive_Syetem_Display.vi"/>
 			<Item Name="Terminal_Friction_Torque.vi" Type="VI" URL="../Terminal_Friction_Torque.vi"/>
-			<Item Name="Terminal_Gear_System_Dispaly.vi" Type="VI" URL="../Terminal_Gear_System_Dispaly.vi"/>
 			<Item Name="Terminal_Log_In_Judge.vi" Type="VI" URL="../Terminal_Log_In_Judge.vi"/>
 			<Item Name="Terminal_PressureSyetem_Work_Condition.vi" Type="VI" URL="../Terminal_PressureSyetem_Work_Condition.vi"/>
-			<Item Name="Terminal_PressureSystem_Display.vi" Type="VI" URL="../Terminal_PressureSystem_Display.vi"/>
 			<Item Name="Terminal_Random_Select.vi" Type="VI" URL="../Terminal_Random_Select.vi"/>
 			<Item Name="Terminal_Voice_Signal_Processing.vi" Type="VI" URL="../Terminal_Voice_Signal_Processing.vi"/>
 			<Item Name="Terminal_Work_Condition.vi" Type="VI" URL="../Terminal_Work_Condition.vi"/>
@@ -248,6 +245,7 @@
 			<Item Name="Test-Alert-Handler.vi" Type="VI" URL="../Test-Alert-Handler.vi"/>
 			<Item Name="Test-Alert-Triggler.vi" Type="VI" URL="../Test-Alert-Triggler.vi"/>
 			<Item Name="test-COM.vi" Type="VI" URL="../test-COM.vi"/>
+			<Item Name="Test-Control.vi" Type="VI" URL="../Test-Control.vi"/>
 			<Item Name="Test-Global.vi" Type="VI" URL="../Test-Global.vi"/>
 			<Item Name="Test-Global2.vi" Type="VI" URL="../Test-Global2.vi"/>
 			<Item Name="Test-SharedVariable-ReadQueue.vi" Type="VI" URL="../Test-SharedVariable-ReadQueue.vi"/>
@@ -263,6 +261,7 @@
 		<Item Name="UI" Type="Folder">
 			<Item Name="Export_Excel.vi" Type="VI" URL="../Export_Excel.vi"/>
 			<Item Name="UI-Main.vi" Type="VI" URL="../UI-Main.vi"/>
+			<Item Name="UI-SelfCheck.vi" Type="VI" URL="../UI-SelfCheck.vi"/>
 			<Item Name="UI_Chose_Function.vi" Type="VI" URL="../UI_Chose_Function.vi"/>
 			<Item Name="UI_Control_System.rtm" Type="Document" URL="../UI_Control_System.rtm"/>
 			<Item Name="UI_Control_System.vi" Type="VI" URL="../UI_Control_System.vi"/>
@@ -603,6 +602,8 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="参数修改.ctl" Type="VI" URL="../参数修改.ctl"/>
+			<Item Name="修改载荷谱模板.ctl" Type="VI" URL="../修改载荷谱模板.ctl"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build"/>
 	</Item>
